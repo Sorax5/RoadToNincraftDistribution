@@ -3,22 +3,22 @@
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "947522574672338954",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "smallImageText": "RoadToNincraft",
+    "smallImageKey": "roadtonincraft"
   },
   "servers": [
     {
       "id": "1-1.12.2",
       "name": "RoadToNincraft - Instance RolePlay",
       "description": "Instance Roleplay du serveur Moddé RoadToNincraft",
-      "icon": "https://cdn.discordapp.com/attachments/800006937219170325/946500347063574649/logo.png",
+      "icon": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/logo.png",
       "version": "1.0.0",
       "address": "178.33.40.222:25637",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "RoadToNincraft Instance RolePlay",
         "largeImageText": "S'entraine durement !",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "largeImageKey": "roadtonincraft"
       },
       "mainServer": true,
       "autoconnect": false,
@@ -30,7 +30,7 @@
           "artifact": {
             "size": 4466148,
             "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
           },
           "subModules": [
             {
@@ -40,7 +40,7 @@
               "artifact": {
                 "size": 11799,
                 "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
               }
             },
             {
@@ -50,7 +50,7 @@
               "artifact": {
                 "size": 387903,
                 "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
               }
             },
             {
@@ -60,7 +60,7 @@
               "artifact": {
                 "size": 32999,
                 "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
               }
             },
             {
@@ -70,7 +70,7 @@
               "artifact": {
                 "size": 614590,
                 "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
               }
             },
             {
@@ -80,7 +80,7 @@
               "artifact": {
                 "size": 2514991,
                 "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
               }
             },
             {
@@ -90,7 +90,7 @@
               "artifact": {
                 "size": 219554,
                 "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
               }
             },
             {
@@ -100,7 +100,7 @@
               "artifact": {
                 "size": 58018,
                 "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
               }
             },
             {
@@ -110,7 +110,7 @@
               "artifact": {
                 "size": 13449765,
                 "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
               }
             },
             {
@@ -120,7 +120,7 @@
               "artifact": {
                 "size": 25365,
                 "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
               }
             },
             {
@@ -130,7 +130,7 @@
               "artifact": {
                 "size": 206575,
                 "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
               }
             },
             {
@@ -140,7 +140,7 @@
               "artifact": {
                 "size": 5538130,
                 "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
               }
             },
             {
@@ -150,7 +150,7 @@
               "artifact": {
                 "size": 419701,
                 "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
               }
             },
             {
@@ -160,7 +160,7 @@
               "artifact": {
                 "size": 4372892,
                 "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
               }
             },
             {
@@ -170,7 +170,7 @@
               "artifact": {
                 "size": 726500,
                 "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
               }
             },
             {
@@ -180,7 +180,7 @@
               "artifact": {
                 "size": 648679,
                 "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
               }
             },
             {
@@ -190,7 +190,7 @@
               "artifact": {
                 "size": 5762,
                 "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
               }
             },
             {
@@ -200,7 +200,7 @@
               "artifact": {
                 "size": 318956,
                 "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
               }
             },
             {
@@ -210,7 +210,7 @@
               "artifact": {
                 "size": 2523218,
                 "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
               }
             },
             {
@@ -220,7 +220,7 @@
               "artifact": {
                 "size": 54961,
                 "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
               }
             },
             {
@@ -230,7 +230,7 @@
               "artifact": {
                 "size": 78175,
                 "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
               }
             },
             {
@@ -240,7 +240,7 @@
               "artifact": {
                 "size": 301804,
                 "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
               }
             },
             {
@@ -250,7 +250,7 @@
               "artifact": {
                 "size": 1789769,
                 "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+                "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
               }
             }
           ]
@@ -261,7 +261,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1893784,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/[1.12.2]%20SecurityCraft%20v1.8.22.2.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/[1.12.2]%20SecurityCraft%20v1.8.22.2.jar",
             "MD5": "12ac6ff9d34d7207242164c19b380846"
           }
         },
@@ -271,7 +271,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7266,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/AIImprovements-1.12-0.0.1b3.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/AIImprovements-1.12-0.0.1b3.jar",
             "MD5": "b7530d2707a004353219ac8beceec173"
           },
           "required": {
@@ -284,7 +284,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 155196,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/BetterFps-1.4.8.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/BetterFps-1.4.8.jar",
             "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
           },
           "required": {
@@ -297,7 +297,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5122856,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/BiblioCraftv2.4.5MC1.12.2.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/BiblioCraftv2.4.5MC1.12.2.jar",
             "MD5": "5b9f1a1543a1fdf687fe4761e3d63ed4"
           }
         },
@@ -307,7 +307,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 13792,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/Clumps-3.1.2.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/Clumps-3.1.2.jar",
             "MD5": "e0c4c4f04aeb0e0a48fc7534f9e7d6be"
           },
           "required": {
@@ -320,7 +320,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 9924337,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/CustomNPCs_1.12.2-05Jun21snapshot.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/CustomNPCs_1.12.2-05Jun21snapshot.jar",
             "MD5": "0fef5f8d294cc33e24f963ba27b7167a"
           }
         },
@@ -330,7 +330,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10035,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/FastFurnace-1.12.2-1.3.1.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/FastFurnace-1.12.2-1.3.1.jar",
             "MD5": "b84cc8a587dbd35fef2dbc3e0b9435aa"
           },
           "required": {
@@ -343,7 +343,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 26515,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/FastWorkbench-1.12.2-1.7.3.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/FastWorkbench-1.12.2-1.7.3.jar",
             "MD5": "b55a31e4193204572acf05f78e0deedc"
           },
           "required": {
@@ -356,7 +356,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 242897,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/foamfix-0.10.14-1.12.2.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/foamfix-0.10.14-1.12.2.jar",
             "MD5": "25a8849a99778579e2d32badaff30e81"
           },
           "required": {
@@ -369,7 +369,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10011886,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/FutureVersions+v1.3.1.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/FutureVersions+v1.3.1.jar",
             "MD5": "e2d83e1bb81d3c4f3a1c905a52cdaade"
           }
         },
@@ -379,7 +379,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 20514,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/HealthBar-1.12-1.0.7-23.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/HealthBar-1.12-1.0.7-23.jar",
             "MD5": "e472d55f9a82780b6cd2fb2176215cd2"
           }
         },
@@ -389,7 +389,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 44044,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/Lumiere_V1.2.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/Lumiere_V1.2.jar",
             "MD5": "e2cd34942b9433d6ae718f0283b2845d"
           }
         },
@@ -399,7 +399,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 140770,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/MumbleLink%201.12.2.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/MumbleLink%201.12.2.jar",
             "MD5": "ab911b2dfeabf991236f987a596e09f8"
           }
         },
@@ -409,7 +409,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 49379781,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/naruto%20mod%201.0.4.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/naruto%20mod%201.0.4.jar",
             "MD5": "6bd72ea23d9340b665a3ab2a478e3bb5"
           }
         },
@@ -419,7 +419,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2669107,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5.jar",
             "MD5": "54e561e441192cf009803ae95873c5d0"
           },
           "required": {
@@ -432,7 +432,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 15289,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/particleculling-1.12.2-v1.3.1.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/particleculling-1.12.2-v1.3.1.jar",
             "MD5": "b324a3095054fca9b957cd6050bdf528"
           },
           "required": {
@@ -445,7 +445,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 76902,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/Placebo-1.12.2-1.6.0.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/Placebo-1.12.2-1.6.0.jar",
             "MD5": "a9ecfa296b2b1203ed5a68ed6c01833a"
           }
         },
@@ -455,7 +455,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5438244,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/RTN-ArmeInvocateur-v1.0.0.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/RTN-ArmeInvocateur-v1.0.0.jar",
             "MD5": "4bac1ad001740863b8cb4286701fce2c"
           }
         },
@@ -465,7 +465,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2077178,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/RTN-elementV1.1.1.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/RTN-elementV1.1.1.jar",
             "MD5": "5e4e90bcd7cc1217a6de81da8f80dfe1"
           }
         },
@@ -475,7 +475,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 600434,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/RTN-FoodPlus.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/RTN-FoodPlus.jar",
             "MD5": "eea0a183b44471361f2eb7766e7a97da"
           }
         },
@@ -485,7 +485,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 93417,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/RTN-ObjetPlus.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/RTN-ObjetPlus.jar",
             "MD5": "75d8ab75067a746e6fb1e6b245655fd8"
           }
         },
@@ -495,7 +495,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1025896,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/VanillaFix-1.0.10-150.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/VanillaFix-1.0.10-150.jar",
             "MD5": "a74aaab68100e03f54e35d1007d50169"
           },
           "required": {
@@ -508,7 +508,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1567926,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/VariedCommodities_1.12.2(21nov19).jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/VariedCommodities_1.12.2(21nov19).jar",
             "MD5": "c4abbbf3e8705c5be1769f7617041803"
           }
         },
@@ -518,7 +518,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 83768,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/walljump-1.12.2-1.3.2.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/walljump-1.12.2-1.3.2.jar",
             "MD5": "845bdff742f44f42021458ea2897291e"
           }
         }
