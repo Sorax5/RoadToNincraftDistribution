@@ -2,284 +2,239 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "clientId": "947522574672338954",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
-      "id": "1-1.16.5",
-      "name": "LukiEnLive Survie Moddé",
-      "description": "Serveur Survie Moddé de LukiEnLive !",
-      "icon": "https://cdn.discordapp.com/attachments/924612117989040148/945696619200933919/circle.png",
+      "id": "1-1.12.2",
+      "name": "RoadToNincraft - Instance RolePlay",
+      "description": "Instance Roleplay du serveur Moddé RoadToNincraft",
+      "icon": null,
       "version": "1.0.0",
-      "address": "game40-dc02.ouiheberg.com:6064",
-      "minecraftVersion": "1.16.5",
+      "address": "178.33.40.222:25637",
+      "minecraftVersion": "1.12.2",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "shortId": "RoadToNincraft Instance RolePlay",
+        "largeImageText": "S'entraine durement !",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.28",
-          "name": "Minecraft Forge (base jar)",
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
+          "name": "Minecraft Forge",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 212291,
-            "MD5": "2508c281aa0f73e01322acc8cebdaf97",
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.28/forge-1.16.5-36.2.28.jar"
+            "size": 4466148,
+            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
           },
           "subModules": [
             {
-              "id": "1.16.5-36.2.28",
+              "id": "1.12.2-14.23.5.2860",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 13577,
-                "MD5": "65399b0baeae34b62c63ca38f0c96a5f",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/versions/1.16.5-forge-36.2.28/1.16.5-forge-36.2.28.json"
+                "size": 11799,
+                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
               }
             },
             {
-              "id": "net.minecraftforge:forge:1.16.5-36.2.28:universal",
-              "name": "Minecraft Forge (universal jar)",
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
               "type": "Library",
               "artifact": {
-                "size": 2756381,
-                "MD5": "df6e9833c7fc2c9b6429158c28fe811e",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.28/forge-1.16.5-36.2.28-universal.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.16.5-36.2.28:client",
-              "name": "Minecraft Forge (client jar)",
-              "type": "Library",
-              "artifact": {
-                "size": 4214066,
-                "MD5": "1100538e811363e899b3c1c8afa99391",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.28/forge-1.16.5-36.2.28-client.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
-              "name": "Minecraft Forge (client srg)",
-              "type": "Library",
-              "artifact": {
-                "size": 11352644,
-                "MD5": "99d2ce2ec2eaac3dfea0a18dc3adb8fa",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
-              "name": "Minecraft Forge (client slim)",
-              "type": "Library",
-              "artifact": {
-                "size": 9118806,
-                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
-              "name": "Minecraft Forge (client extra)",
-              "type": "Library",
-              "artifact": {
-                "size": 8428369,
-                "MD5": "dbed747390f81e10cee40500b726431a",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "org.ow2.asm:asm:9.1",
-              "name": "Minecraft Forge (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 121790,
-                "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.1",
-              "name": "Minecraft Forge (asm-commons)",
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
               "type": "Library",
               "artifact": {
-                "size": 72641,
-                "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.1",
-              "name": "Minecraft Forge (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 52662,
-                "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.1",
-              "name": "Minecraft Forge (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 84679,
-                "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.1",
-              "name": "Minecraft Forge (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 34257,
-                "MD5": "f0e82941173b6049c03e8214ace70ecd",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:modlauncher:8.1.3",
-              "name": "Minecraft Forge (modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 126747,
-                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:grossjava9hacks:1.3.3",
-              "name": "Minecraft Forge (grossjava9hacks)",
-              "type": "Library",
-              "artifact": {
-                "size": 2113,
-                "MD5": "d19b487241008d8e6111137a289ea1d7",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:accesstransformers:3.0.1",
-              "name": "Minecraft Forge (accesstransformers)",
-              "type": "Library",
-              "artifact": {
-                "size": 76586,
-                "MD5": "ada4c365c3d0de73c05a94010432b547",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
-              }
-            },
-            {
-              "id": "org.antlr:antlr4-runtime:4.9.1",
-              "name": "Minecraft Forge (antlr4-runtime)",
-              "type": "Library",
-              "artifact": {
-                "size": 337868,
-                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:eventbus:4.0.0",
-              "name": "Minecraft Forge (eventbus)",
-              "type": "Library",
-              "artifact": {
-                "size": 42873,
-                "MD5": "84c4758e6139b70146104be5bb1300b5",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:forgespi:3.2.0",
-              "name": "Minecraft Forge (forgespi)",
-              "type": "Library",
-              "artifact": {
-                "size": 20172,
-                "MD5": "8f1f6942d17d88d704324e8000666a1a",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:coremods:4.0.6",
-              "name": "Minecraft Forge (coremods)",
-              "type": "Library",
-              "artifact": {
-                "size": 25453,
-                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:unsafe:0.2.0",
-              "name": "Minecraft Forge (unsafe)",
-              "type": "Library",
-              "artifact": {
-                "size": 2834,
-                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:core:3.6.3",
-              "name": "Minecraft Forge (core)",
-              "type": "Library",
-              "artifact": {
-                "size": 199091,
-                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:toml:3.6.3",
-              "name": "Minecraft Forge (toml)",
-              "type": "Library",
-              "artifact": {
-                "size": 31288,
-                "MD5": "615b8e62371c536f876764591990118d",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline:3.12.1",
+              "id": "org.jline:jline:3.5.1@jar",
               "name": "Minecraft Forge (jline)",
               "type": "Library",
               "artifact": {
-                "size": 732926,
-                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
               }
             },
             {
-              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
               "name": "Minecraft Forge (maven-artifact)",
               "type": "Library",
               "artifact": {
-                "size": 57824,
-                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
               }
             },
             {
-              "id": "net.jodah:typetools:0.8.3",
-              "name": "Minecraft Forge (typetools)",
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
               "type": "Library",
               "artifact": {
-                "size": 15425,
-                "MD5": "ee4596e1413cc1a5e080c971d6064753",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
               }
             },
             {
-              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
               "name": "Minecraft Forge (log4j-api)",
               "type": "Library",
               "artifact": {
@@ -289,7 +244,7 @@
               }
             },
             {
-              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
               "name": "Minecraft Forge (log4j-core)",
               "type": "Library",
               "artifact": {
@@ -297,805 +252,274 @@
                 "MD5": "81e0433ae00602c0e4d00424d213b0ab",
                 "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
               }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
-              "name": "Minecraft Forge (log4j-slf4j18-impl)",
-              "type": "Library",
-              "artifact": {
-                "size": 21223,
-                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
-              }
-            },
-            {
-              "id": "net.minecrell:terminalconsoleappender:1.2.0",
-              "name": "Minecraft Forge (terminalconsoleappender)",
-              "type": "Library",
-              "artifact": {
-                "size": 15977,
-                "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
-              "name": "Minecraft Forge (jopt-simple)",
-              "type": "Library",
-              "artifact": {
-                "size": 78146,
-                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
-              }
-            },
-            {
-              "id": "org.spongepowered:mixin:0.8.4",
-              "name": "Minecraft Forge (mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1069391,
-                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
-              "name": "Minecraft Forge (nashorn-core-compat)",
-              "type": "Library",
-              "artifact": {
-                "size": 2194057,
-                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
-                "url": "http://45.140.164.232:1800/lukienlivelauncher/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
-              }
             }
           ]
         },
         {
-          "id": "tfar.ae2wt:ae2wtlib:0.3.3-1.16.5@jar",
-          "name": "AE2 Wireless Terminals",
+          "id": "net.geforcemods:securitycraft:v1.8.22.2@jar",
+          "name": "SecurityCraft",
           "type": "ForgeMod",
           "artifact": {
-            "size": 287421,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/ae2wtlib-0.3.3-1.16.5.jar",
-            "MD5": "b3554160d064cd48163c0f59b75febcf"
+            "size": 1893784,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/[1.12.2]%20SecurityCraft%20v1.8.22.2.jar",
+            "MD5": "12ac6ff9d34d7207242164c19b380846"
           }
         },
         {
-          "id": "appeng.core:appliedenergistics2:8.4.7@jar",
-          "name": "Applied Energistics 2",
+          "id": "com.builtbroken.ai.improvements:AI-Improvements:1.12-0.0.1b3@jar",
+          "name": "AI-Improvements",
           "type": "ForgeMod",
           "artifact": {
-            "size": 4820914,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/appliedenergistics2-8.4.7.jar",
-            "MD5": "c89ee2036b32eaaf3aafc77ec7694524"
-          }
-        },
-        {
-          "id": "com.blamejared:appliedenergisticstweaker:1.0.0.15@jar",
-          "name": "Applied Energistics Tweaker",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 16596,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/AppliedEnergisticsTweaker-1.0.0.15.jar",
-            "MD5": "d5911050b7e737d9b1fad68815941dd7"
-          }
-        },
-        {
-          "id": "me.shedaniel:architectury:1.30.53@jar",
-          "name": "Architectury",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 548960,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/architectury-1.30.53.jar",
-            "MD5": "c1edbb672b267be826a4001665e79ad0"
-          }
-        },
-        {
-          "id": "artifacts:artifacts:1.16.5-2.10.4@jar",
-          "name": "Artifacts",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 467569,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/Artifacts-1.16.5-2.10.4.jar",
-            "MD5": "7e124d4d02aa34c6bce5701bad49168d"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:bettercaves:1.16.4-1.1.2@jar",
-          "name": "YUNG's Better Caves",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1402482,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/BetterCaves-Forge-1.16.4-1.1.2.jar",
-            "MD5": "2a4d2750e78156a6efcbb2ea932d4e6e"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:betterdungeons:1.16.4-1.2.1@jar",
-          "name": "YUNG's Better Dungeons",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 510439,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/BetterDungeons-1.16.4-1.2.1.jar",
-            "MD5": "a51b4f9c3e0e9fbdb3be8751dd2fc24e"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.16.4-2.0.4@jar",
-          "name": "YUNG's Better Mineshafts",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 289307,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/BetterMineshafts-Forge-1.16.4-2.0.4.jar",
-            "MD5": "94a88366c2e6846b32c5df0a5f044d07"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.16.4-1.2.1@jar",
-          "name": "YUNG's Better Strongholds",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 541396,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/BetterStrongholds-1.16.4-1.2.1.jar",
-            "MD5": "47c3af75b76034d5952c0df6440cd3e4"
-          }
-        },
-        {
-          "id": "biomesoplenty.core:biomesoplenty:1.16.5-13.1.0.477@jar",
-          "name": "Biomes O' Plenty",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3651670,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/BiomesOPlenty-1.16.5-13.1.0.477-universal.jar",
-            "MD5": "e9c62fa3fce0a36475bf6e4b5c43a542"
-          }
-        },
-        {
-          "id": "com.limeshulkerbox:bmvsb:1.0.2@jar",
-          "name": "BMVSB",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7242,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/bmvsb-1.0.2.jar",
-            "MD5": "0dd0b181899b0de9a4e73057887a2242"
+            "size": 7266,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/AIImprovements-1.12-0.0.1b3.jar",
+            "MD5": "b7530d2707a004353219ac8beceec173"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
-          "id": "net.darkhax:bookshelf:10.4.31@jar",
-          "name": "Bookshelf",
+          "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
+          "name": "BetterFps",
           "type": "ForgeMod",
           "artifact": {
-            "size": 316237,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/Bookshelf-Forge-1.16.5-10.4.31.jar",
-            "MD5": "40daf0ad636c1ae6d954fc66c093c143"
+            "size": 155196,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/BetterFps-1.4.8.jar",
+            "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "me.shedaniel.clothconfig:cloth-config:4.14.54@jar",
-          "name": "Cloth Config v4 API",
+          "id": "jds.bibliocraft:bibliocraft:2.4.5@jar",
+          "name": "BiblioCraft",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1458779,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/cloth-config-4.14.54-forge.jar",
-            "MD5": "b8d5fa1640934a2e90b94e4206e939cd"
+            "size": 5122856,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/BiblioCraftv2.4.5MC1.12.2.jar",
+            "MD5": "5b9f1a1543a1fdf687fe4761e3d63ed4"
           }
         },
         {
-          "id": "com.blamejared:clumps:6.0.0.28@jar",
+          "id": "com.blamejared:clumps:3.1.2@jar",
           "name": "Clumps",
           "type": "ForgeMod",
           "artifact": {
-            "size": 18397,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/Clumps-6.0.0.28.jar",
-            "MD5": "0fdfe776ae513bd8a4c7396097ce42e9"
+            "size": 13792,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/Clumps-3.1.2.jar",
+            "MD5": "e0c4c4f04aeb0e0a48fc7534f9e7d6be"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
-          "id": "com.connectivity:connectivity:2.4-1.16.5@jar",
-          "name": "Connectivity Mod",
+          "id": "noppes.npcs:customnpcs:1.12@jar",
+          "name": "CustomNPCs",
           "type": "ForgeMod",
           "artifact": {
-            "size": 53113,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/connectivity-2.4-1.16.5.jar",
-            "MD5": "1991b06777e738e93a904fd3525bde4e"
+            "size": 9924337,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/CustomNPCs_1.12.2-05Jun21snapshot.jar",
+            "MD5": "0fef5f8d294cc33e24f963ba27b7167a"
+          }
+        },
+        {
+          "id": "shadows.fastfurnace:fastfurnace:1.12.2-1.3.1@jar",
+          "name": "FastFurnace",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10035,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/FastFurnace-1.12.2-1.3.1.jar",
+            "MD5": "b84cc8a587dbd35fef2dbc3e0b9435aa"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
-          "id": "com.blamejared:crafttweaker:7.1.2.499@jar",
-          "name": "CraftTweaker",
+          "id": "shadows.fastbench:fastbench:1.12.2-1.7.3@jar",
+          "name": "FastWorkbench",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2478519,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/CraftTweaker-1.16.5-7.1.2.499.jar",
-            "MD5": "1440c0a8ec106d3051fa01bacbc5650c"
-          }
-        },
-        {
-          "id": "com.simibubi:create:v0.3.2g@jar",
-          "name": "Create",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 11564279,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/create-mc1.16.5_v0.3.2g.jar",
-            "MD5": "84ec13d5bccfa71a09783ecb6e089b20"
-          }
-        },
-        {
-          "id": "com.mrh0:createaddition:1.16.5-20220129a@jar",
-          "name": "Create Crafts & Additions",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 834203,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/createaddition-1.16.5-20220129a.jar",
-            "MD5": "250fd90a842bb6c1071c58f09ff2febf"
-          }
-        },
-        {
-          "id": "com.robocraft999:createplus:1.16.4_v0.3.2.1@jar",
-          "name": "Create Plus",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 64683,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/createplus-1.16.4_v0.3.2.1.jar",
-            "MD5": "81dc448dc1fb16b62955cdc068e1ed77"
-          }
-        },
-        {
-          "id": "com.blamejared:createtweaker:1.0.0.26@jar",
-          "name": "CreateTweaker",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 91060,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/CreateTweaker-1.0.0.26.jar",
-            "MD5": "8719805e413e0be1b7cdce558f29d8db"
-          }
-        },
-        {
-          "id": "azmalent.cuneiform:cuneiform:1.16.3-1.2.5@jar",
-          "name": "Cuneiform",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 102333,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/cuneiform-1.16.3-1.2.5.jar",
-            "MD5": "d614716daac7bcf5c79cb9e2308a16a6"
-          }
-        },
-        {
-          "id": "top.theillusivec4:curios:1.16.5-4.0.5.3@jar",
-          "name": "Curios API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 246281,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/curios-forge-1.16.5-4.0.5.3.jar",
-            "MD5": "15ff549e39f809bed3a751cf768fb72f"
-          }
-        },
-        {
-          "id": "com.lilypuree:decorative_blocks:1.7.2@jar",
-          "name": "Decorative Blocks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 576443,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/decorative_blocks-1.16.4-1.7.2.jar",
-            "MD5": "1b6222ecb3d24ef21b840ef0e5d98702"
-          }
-        },
-        {
-          "id": "xiroc.dungeoncrawl:dungeoncrawl:2.3.5@jar",
-          "name": "Dungeon Crawl",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 778769,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/DungeonCrawl-1.16.5-2.3.5.jar",
-            "MD5": "792db6c6e24834672cc272f68e7797cd"
-          }
-        },
-        {
-          "id": "me.lambdaurora.lambdynlights:dynamiclightsreforged:mc1.16.5_v1.0.1@jar",
-          "name": "Dynamic Lights Reforged",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 122118,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/dynamiclightsreforged-mc1.16.5_v1.0.1.jar",
-            "MD5": "1cda780a90261f66a3a3b5dce12b903c"
+            "size": 26515,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/FastWorkbench-1.12.2-1.7.3.jar",
+            "MD5": "b55a31e4193204572acf05f78e0deedc"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
-          "id": "be.florens:expandability:2.0.1@jar",
-          "name": "ExpandAbility",
+          "id": "pl.asie:foamfix:0.10.14-1.12.2@jar",
+          "name": "FoamFix",
           "type": "ForgeMod",
           "artifact": {
-            "size": 43358,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/expandability-2.0.1-forge.jar",
-            "MD5": "bd9f79f1ae8a1b099c2bd09782ba9135"
-          }
-        },
-        {
-          "id": "shadows.fastsuite:fastsuite:1.1.1@jar",
-          "name": "FastSuite",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 10829,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/FastSuite-1.16.4-1.1.1.jar",
-            "MD5": "46672d6b456190e9d9b4a67641d42bac"
+            "size": 242897,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/foamfix-0.10.14-1.12.2.jar",
+            "MD5": "25a8849a99778579e2d32badaff30e81"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
-          "id": "malte0811.ferritecore:ferritecore:2.1.0@jar",
-          "name": "Ferrite Core",
+          "id": "net.mcreator:futureminecraf:1.3.1@jar",
+          "name": "Future Versions",
           "type": "ForgeMod",
           "artifact": {
-            "size": 108520,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/ferritecore-2.1.0-forge.jar",
-            "MD5": "6b469b99aa6f89b6ebad7aefa3cb9843"
+            "size": 10011886,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/FutureVersions+v1.3.1.jar",
+            "MD5": "e2d83e1bb81d3c4f3a1c905a52cdaade"
+          }
+        },
+        {
+          "id": "net.silentchaos512.hpbar:healthbar:1.0.7@jar",
+          "name": "Health Bar",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20514,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/HealthBar-1.12-1.0.7-23.jar",
+            "MD5": "e472d55f9a82780b6cd2fb2176215cd2"
+          }
+        },
+        {
+          "id": "net.mcreator.blocklumineur:block_lumineur:1.0.0@jar",
+          "name": "Block lumineur",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 44044,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/Lumiere_V1.2.jar",
+            "MD5": "e2cd34942b9433d6ae718f0283b2845d"
+          }
+        },
+        {
+          "id": "zsawyer.mods.mumblelink.addons.pa.es:mumblelink:1.12.2-4.2.5@jar",
+          "name": "MumbleLink for Forge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 140770,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/MumbleLink%201.12.2.jar",
+            "MD5": "ab911b2dfeabf991236f987a596e09f8"
+          }
+        },
+        {
+          "id": "net.rtn:narutoitem_utilities:1.0.4@jar",
+          "name": "NarutoItem Utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 49379781,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/naruto%20mod%201.0.4.jar",
+            "MD5": "6bd72ea23d9340b665a3ab2a478e3bb5"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2669107,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5.jar",
+            "MD5": "54e561e441192cf009803ae95873c5d0"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
-          "id": "com.jozufozu:flywheel:1.16-0.2.5@jar",
-          "name": "Flywheel",
+          "id": "bl4ckscor3.mod:particleculling:1.12.2-v1.3.1@jar",
+          "name": "Particle Culling",
           "type": "ForgeMod",
           "artifact": {
-            "size": 420923,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/flywheel-1.16-0.2.5.jar",
-            "MD5": "0964200fddbd4ff67dfab63c5aae161a"
-          }
-        },
-        {
-          "id": "com.feed_the_beast.mods:ftbbackups:2.1.2.2@jar",
-          "name": "FTB Backups",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 44027,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/ftb-backups-2.1.2.2.jar",
-            "MD5": "4bf6828a6501cf79eddfd133de68c38f"
-          }
-        },
-        {
-          "id": "dev.ftb.mods:ftbchunks:1605.3.2-build.115@jar",
-          "name": "FTB Chunks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 737811,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/ftb-chunks-forge-1605.3.2-build.115.jar",
-            "MD5": "859cc1e34f4febac50e056393d4bc73e"
-          }
-        },
-        {
-          "id": "dev.ftb.mods:ftblibrary:1605.3.4-build.90@jar",
-          "name": "FTB Library",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 585125,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/ftb-library-forge-1605.3.4-build.90.jar",
-            "MD5": "88b4c3497d1aa260481bd74e464a3d70"
-          }
-        },
-        {
-          "id": "dev.ftb.mods:ftbteams:1605.2.3-build.40@jar",
-          "name": "FTB Teams",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 171679,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/ftb-teams-forge-1605.2.3-build.40.jar",
-            "MD5": "08d807589127eac26626d36ac36d1b21"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods.hydrogen:helium:1.0@jar",
-          "name": "Helium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 71393,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/helium-1.0.jar",
-            "MD5": "d2983c50bea8a0bbc0724a9cfe33ea88"
+            "size": 15289,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/particleculling-1.12.2-v1.3.1.jar",
+            "MD5": "b324a3095054fca9b957cd6050bdf528"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
-          "id": "mcp.mobius:waila:1.10.11-B78_1.16.2@jar",
-          "name": "Waila",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 175464,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/Hwyla-forge-1.10.11-B78_1.16.2.jar",
-            "MD5": "1bd70c1ad7614bb2df8c95a85ade97eb"
-          }
-        },
-        {
-          "id": "com.buuz135.industrial:industrialforegoing:3.2.14.6@jar",
-          "name": "Industrial Foregoing",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3582355,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/industrial-foregoing-1.16.5-3.2.14.6-14.jar",
-            "MD5": "2c4cf2b7dd85ab95a4268f5771564282"
-          }
-        },
-        {
-          "id": "com.progwml6:ironchest:1.16.5-11.2.21@jar",
-          "name": "Iron Chests",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 258298,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/ironchest-1.16.5-11.2.21.jar",
-            "MD5": "ad813ff46d3c9ba127e1033bfe957758"
-          }
-        },
-        {
-          "id": "mezz.jei:jei:7.7.1.150@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 828703,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/jei-1.16.5-7.7.1.150.jar",
-            "MD5": "f0a81453320d5a6ae9864da3ab4099ae"
-          }
-        },
-        {
-          "id": "com.blamejared:jeitweaker:1.1.0.49@jar",
-          "name": "JEI Tweaker",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 151709,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/JEITweaker-1.16.5-1.1.0.49.jar",
-            "MD5": "6c7ebf18dc1c42f91ee503308fed1e2c"
-          }
-        },
-        {
-          "id": "org.jmt.mcmt:jmt_mcmt:0.22.87@jar",
-          "name": "JMT MCMT",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 179223,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/jmt_mcmt-1.16.5-0.22.87-modcore.jar",
-            "MD5": "b5fbb802a06fe2a56669faf4181d96ec"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:jmt_mcmt:1.16.5-0.22.87@jar",
-          "name": "Jmt_mcmt",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 178052,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/jmt_mcmt-1.16.5-0.22.87.jar",
-            "MD5": "7b714f318df4c0935bb0c42909e5338b"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "me.steinborn:lazydfu:0.1.3@jar",
-          "name": "LazyDFU",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 15258,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/lazydfu-0.1.3.jar",
-            "MD5": "fce7920ba6329d631da4025e9322e5e0"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "vice.magnesium_extras:magnesium_extras:mc1.16.5_v1.3.1@jar",
-          "name": "Magnesium Extras",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 91607,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/magnesium_extras-mc1.16.5_v1.3.1.jar",
-            "MD5": "c9206cfabde8ac176c7865c63507a4e0"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "me.jellysquid.mods.sodium.client:magnesium:1.5@jar",
-          "name": "Magnesium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 541088,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/magnesium-1.5.jar",
-            "MD5": "e399ec4581df33a5cb7a0d6a0450a08b"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "mekanism:mekanism:10.1.2@jar",
-          "name": "Mekanism",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 11181433,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/Mekanism-1.16.5-10.1.2.457.jar",
-            "MD5": "bcfbd6b2d63020cdbf42b9c2d643b956"
-          }
-        },
-        {
-          "id": "mekanism.additions:mekanismadditions:10.1.2@jar",
-          "name": "Mekanism: Additions",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1078058,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/MekanismAdditions-1.16.5-10.1.2.457.jar",
-            "MD5": "694caa7a64411e7dcd85be4d40689ec1"
-          }
-        },
-        {
-          "id": "mekanism.generators:mekanismgenerators:10.1.2@jar",
-          "name": "Mekanism: Generators",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 985334,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/MekanismGenerators-1.16.5-10.1.2.457.jar",
-            "MD5": "8e0854f544510952dda70eb3c840638e"
-          }
-        },
-        {
-          "id": "mekanism.tools:mekanismtools:10.1.2@jar",
-          "name": "Mekanism: Tools",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 368033,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/MekanismTools-1.16.5-10.1.2.457.jar",
-            "MD5": "7742cf452e949b171884457cedabdce1"
-          }
-        },
-        {
-          "id": "net.blay09.mods:netherportalfix:7.2.1@jar",
-          "name": "NetherPortalFix",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 110010,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/NetherPortalFix_1.16.3-7.2.1.jar",
-            "MD5": "b5407bdd857e73236ff10d204f9fe8d5"
-          }
-        },
-        {
-          "id": "vazkii.patchouli.common.base:patchouli:1.16.4-53.2@jar",
-          "name": "Patchouli",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 593114,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/Patchouli-1.16.4-53.2.jar",
-            "MD5": "8bc012f54bb0df32e53d4c92398e2524"
-          }
-        },
-        {
-          "id": "shadows.placebo:placebo:4.6.1@jar",
+          "id": "shadows.placebo:placebo:1.12.2-1.6.0@jar",
           "name": "Placebo",
           "type": "ForgeMod",
           "artifact": {
-            "size": 145933,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/Placebo-1.16.5-4.6.1.jar",
-            "MD5": "ebf00ea62791def51c779ac0c3e7974c"
+            "size": 76902,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/Placebo-1.12.2-1.6.0.jar",
+            "MD5": "a9ecfa296b2b1203ed5a68ed6c01833a"
+          }
+        },
+        {
+          "id": "net.mcreator:rtnarmeinvocateur:1.0.0@jar",
+          "name": "RTN-ArmeInvocateur",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5438244,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/RTN-ArmeInvocateur-v1.0.0.jar",
+            "MD5": "4bac1ad001740863b8cb4286701fce2c"
+          }
+        },
+        {
+          "id": "net.mcreator:rtnelement:1.1.1@jar",
+          "name": "RTN-element",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2077178,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/RTN-elementV1.1.1.jar",
+            "MD5": "5e4e90bcd7cc1217a6de81da8f80dfe1"
+          }
+        },
+        {
+          "id": "net.mcreator:rtnfoodplus:1.0.0@jar",
+          "name": "RTN-FoodPlus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 600434,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/RTN-FoodPlus.jar",
+            "MD5": "eea0a183b44471361f2eb7766e7a97da"
+          }
+        },
+        {
+          "id": "net.mcreator:rtnobjetplus:1.0.0@jar",
+          "name": "RTN-ObjetPlus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 93417,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/RTN-ObjetPlus.jar",
+            "MD5": "75d8ab75067a746e6fb1e6b245655fd8"
+          }
+        },
+        {
+          "id": "org.dimdev:vanillafix:1.0.10-150@jar",
+          "name": "VanillaFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1025896,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/optionalon/VanillaFix-1.0.10-150.jar",
+            "MD5": "a74aaab68100e03f54e35d1007d50169"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
-          "id": "com.telepathicgrunt.repurposedstructures:repurposed_structures:3.4.7+1.16.5@jar",
-          "name": "Repurposed Structures",
+          "id": "noppes.vc:variedcommodities:1.0@jar",
+          "name": "Varied Commodities",
           "type": "ForgeMod",
           "artifact": {
-            "size": 5576490,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/repurposed_structures_forge-3.4.7+1.16.5.jar",
-            "MD5": "688901495495db2e324b127b5a6f171b"
+            "size": 1567926,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/VariedCommodities_1.12.2(21nov19).jar",
+            "MD5": "c4abbbf3e8705c5be1769f7617041803"
           }
         },
         {
-          "id": "me.jellysquid.mods.lithium:roadrunner:1.4.0@jar",
-          "name": "Meep Meep! (Road Runner)",
+          "id": "genandnic.walljump:walljump:1.12.2-1.3.2@jar",
+          "name": "Wall-Jump!",
           "type": "ForgeMod",
           "artifact": {
-            "size": 366073,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/RoadRunner-mc1.16.5-1.4.0.jar",
-            "MD5": "49b2c086c91dac841ca6a99447b11791"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:savemystronghold:1.16.4-1.0@jar",
-          "name": "Save My Stronghold!",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 182118,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/SaveMyStronghold-1.16.4-1.0.jar",
-            "MD5": "d982a1c9ab39242e153c56e87b37f774"
-          }
-        },
-        {
-          "id": "io.github.ultimateboomer:smoothboot:1.16.4-1.2.2@jar",
-          "name": "Smooth Boot",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 84744,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/smoothboot-forge-1.16.4-1.2.2.jar",
-            "MD5": "104ca76ce6b18b90fbfa4c58b3bbdfc2"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "ca.spottedleaf:starlight:1.0.0-RC2@jar",
-          "name": "Starlight",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 101511,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/starlight-1.2.jar",
-            "MD5": "0300a2592cdb4b82f7203b4f0f9af87b"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "net.thegrimsey:stoneholm:1.2@jar",
-          "name": "Stoneholm",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 218290,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/stoneholm-1.2.2.jar",
-            "MD5": "f45c0faacb5cd1b404dc6db9728633c0"
-          }
-        },
-        {
-          "id": "com.jaquadro.minecraft:storagedrawers:8.5.1@jar",
-          "name": "Storage Drawers",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 575661,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/StorageDrawers-1.16.3-8.5.1.jar",
-            "MD5": "dc4993c727338dee8b1d7a8c4a6ee0b3"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods.phosphor:sulfuric:1.0@jar",
-          "name": "Sulfuric",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 95323,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/optionaloff/sulfuric-1.1.jar",
-            "MD5": "8e67fba52bee2d6128937dd1b230cd29"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "azmalent.terraincognita:terraincognita:1.16.3-1.7.2@jar",
-          "name": "Terra Incognita",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1021644,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/terraincognita-1.16.3-1.7.2.jar",
-            "MD5": "9dbfb6d26a7e210b51e2b2ac1e5a048d"
-          }
-        },
-        {
-          "id": "com.hrznstudio:titanium:3.2.8.4@jar",
-          "name": "Titanium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 635229,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/titanium-1.16.5-3.2.8.4-10.jar",
-            "MD5": "7e11f28ccb59508e22be363dfc05400f"
-          }
-        },
-        {
-          "id": "net.xalcon:torchmaster:2.3.8@jar",
-          "name": "Torchmaster",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 94627,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/torchmaster-2.3.8.jar",
-            "MD5": "ca3a3912e74ee5e5b2e28d913ea8a3c7"
-          }
-        },
-        {
-          "id": "net.valhelsia:valhelsia_core:16.0.15@jar",
-          "name": "Valhelsia Core",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 608118,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/valhelsia_core-16.0.15.jar",
-            "MD5": "39bfa258ac7c15b3787838df57b4d872"
-          }
-        },
-        {
-          "id": "com.stal111:valhelsia_structures:1.16.5-0.1.6@jar",
-          "name": "Valhelsia Structures",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1540395,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/valhelsia_structures-1.16.5-0.1.6.jar",
-            "MD5": "d51467d2ead99045afc9ba8d8e7691be"
-          }
-        },
-        {
-          "id": "net.darkhax:wawla:8.0.1@jar",
-          "name": "WAWLA",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 31378,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/WAWLA-1.16.5-8.0.1.jar",
-            "MD5": "5547345e4e31b70dd1f7f69424da736c"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:yungsapi:1.16.4-Forge-13@jar",
-          "name": "YUNG's API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 106058,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/YungsApi-1.16.4-Forge-13.jar",
-            "MD5": "d9bb57c12da921556bfd981c37f9a49a"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:yungsbridges:1.16.4-1.0.1@jar",
-          "name": "YUNG's Bridges",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 80085,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/YungsBridges-Forge-1.16.4-1.0.1.jar",
-            "MD5": "1bf26f62e9be4eb07b91dab2d01edfe2"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:yungsextras:Forge-1.16.4-1.0@jar",
-          "name": "YUNG's Extras",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 64256,
-            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.16.5/forgemods/required/YungsExtras-Forge-1.16.4-1.0.jar",
-            "MD5": "e27b8af5ec8192c9644dab2eb4606ac9"
+            "size": 83768,
+            "url": "http://45.140.164.232:1800/lukienlivelauncher/servers/1-1.12.2/forgemods/required/walljump-1.12.2-1.3.2.jar",
+            "MD5": "845bdff742f44f42021458ea2897291e"
           }
         }
       ]

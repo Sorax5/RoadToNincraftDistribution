@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///C:/Users/SoraxDubbing/Documents/GitHub/Nebula-root/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "RoadToNincraft - Instance RolePlay",
+    "description": "Instance Roleplay du serveur Moddé RoadToNincraft",
+    "address": "178.33.40.222:25637",
+    "discord": {
+      "shortId": "RoadToNincraft Instance RolePlay",
+      "largeImageText": "S'entraine durement !",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "14.23.5.2860"
+  },
+  "untrackedFiles": []
+}
