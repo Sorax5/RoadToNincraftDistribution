@@ -9,15 +9,6 @@
             "width" : 128,
             "height" : 128,
             "alignment" : "top_center"
-        },
-
-        "parchemin":{
-            "image" : "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/imgFond.png",
-            "posX" : -108,
-            "posY" : 90,
-            "width" : 256,
-            "height" : 152,
-            "alignment" : "top_center"
         }
     },
     
@@ -126,8 +117,7 @@
                     "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/3.jpg",
                     "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/4.jpg",
                     "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/5.jpg",
-                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/6.jpg",
-                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/7.jpg"],
+                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/6.jpg",],
                 "displayDuration" : 300,
                 "fadeDuration" : 20,
                 "blur" : true
