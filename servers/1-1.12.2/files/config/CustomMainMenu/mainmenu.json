@@ -1,0 +1,137 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/logo.png",
+            "posX" : -69,
+            "posY" : -15,
+            "width" : 128,
+            "height" : 128,
+            "alignment" : "top_center"
+        },
+
+        "parchemin":{
+            "image" : "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/imgFond.png",
+            "posX" : -108,
+            "posY" : 90,
+            "width" : 256,
+            "height" : 152,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 2,
+            "posY" : 108,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "server":
+        {
+            "text" : "Se connecter a RTN",
+            "posX" : -59,
+            "posY" : 54,
+            "width" : 110,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "rtnincraft.minesr.com"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 108,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "�nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        }
+    },
+    
+    "other":
+    {
+        
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/0.jpg",
+                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/1.jpg",
+                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/2.jpg",
+                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/3.jpg",
+                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/4.jpg",
+                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/5.jpg",
+                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/6.jpg",
+                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/7.jpg"],
+                "displayDuration" : 300,
+                "fadeDuration" : 20,
+                "blur" : true
+            }
+        }
+    }
+}
