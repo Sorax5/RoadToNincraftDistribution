@@ -12,7 +12,7 @@
         },
 
         "parchemin":{
-            "image" : "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/imgFond.png",
+            "image" : "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/imgFond.png",
             "posX" : -108,
             "posY" : 90,
             "width" : 256,
