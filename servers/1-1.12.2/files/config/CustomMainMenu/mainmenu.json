@@ -4,51 +4,63 @@
         "title":
         {
             "image" : "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/logo.png",
-            "posX" : -69,
+            "posX" : 100,
             "posY" : -15,
             "width" : 128,
             "height" : 128,
             "alignment" : "top_center"
+        },
+
+        "parchemin":{
+            "image" : "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/fondLauncher.png",
+            "posX" : 50,
+            "posY" : 0,
+            "width" : 128,
+            "height" : 256,
+            "alignment" : "left_center "
         }
     },
     
     "buttons":
     {
-        "mods":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : 2,
-            "posY" : 108,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
-
         "server":
         {
-            "text" : "Se connecter a RTN",
-            "posX" : -59,
-            "posY" : 54,
-            "width" : 110,
+            "text" : "RoadToNincraft",
+            "posX" : 65,
+            "posY" : 50,
+            "width" : 98,
             "height" : 20,
+            "alignment" : "left_center ",
             "action" : 
             {
                 "type" : "connectToServer",
                 "ip" : "rtnincraft.minesr.com"
             }
         },
+
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 65,
+            "posY" : 150,
+            "width" : 98,
+            "height" : 20,
+            "alignment" : "left_center ",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
             
         "options":
         {
             "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 108,
+            "posX" : 65,
+            "posY" : 125,
             "width" : 98,
             "height" : 20,
+            "alignment" : "left_center ",
             "action" : 
             {
                 "type" : "openGui",
@@ -59,22 +71,86 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 200,
+            "posX" : 65,
+            "posY" : 200,
+            "width" : 98,
             "height" : 20,
+            "alignment" : "left_center ",
             "action" : 
             {
                 "type" : "quit"
             }
         },
-        
+
+        "discord":
+        {
+            "text" : "",
+            "posX" : 65,
+            "posY" : 175,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/discordbuttons.png",
+            "alignment" : "left_center ",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/JCbbhbVama"
+            }
+        },
+
+        "github":
+        {
+            "text" : "",
+            "posX" : 90,
+            "posY" : 175,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/githubbuttons.png",
+            "alignment" : "left_center ",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/Sorax5/RoadToNincraftStudioLeblanc-Launcher"
+            }
+        },
+
+        "twitter":
+        {
+            "text" : "",
+            "posX" : 115,
+            "posY" : 175,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/twitterbuttons.png",
+            "alignment" : "left_center ",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://twitter.com/RTNincraft"
+            }
+        },
+
+        "youtube":
+        {
+            "text" : "",
+            "posX" : 140,
+            "posY" : 175,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/youtubebuttons.png",
+            "alignment" : "left_center ",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.youtube.com/channel/UCw4mCM_tE2s2otvPVjJlOaA"
+            }
+        },
         
         "refresh":
         {
             "text" : "",
-            "posX" : -154,
-            "posY" : 132,
+            "posX" : -220,
+            "posY" : 138,
             "width" : 20,
             "height" : 20,
             "texture" : "custommainmenu:textures/gui/buttons.png",
@@ -117,7 +193,8 @@
                     "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/3.jpg",
                     "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/4.jpg",
                     "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/5.jpg",
-                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/6.jpg"],
+                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/6.jpg",
+                    "web:https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/Fond/7.jpg"],
                 "displayDuration" : 300,
                 "fadeDuration" : 20,
                 "blur" : true
