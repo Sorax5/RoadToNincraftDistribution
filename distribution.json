@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.2",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "947522574672338954",
@@ -12,7 +12,7 @@
       "name": "RoadToNincraft - Instance RolePlay",
       "description": "Instance Roleplay du serveur Moddé RoadToNincraft",
       "icon": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/logo.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "178.33.40.222:25637",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -256,6 +256,16 @@
           ]
         },
         {
+          "id": "org.spongepowered.asm.launch:_mixinbootstrap:1.1.0@jar",
+          "name": "_MixinBootstrap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1119478,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/_MixinBootstrap-1.1.0.jar",
+            "MD5": "9df0dc628ebcd787270f487fbbf8157a"
+          }
+        },
+        {
           "id": "net.geforcemods:securitycraft:v1.8.22.2@jar",
           "name": "SecurityCraft",
           "type": "ForgeMod",
@@ -386,6 +396,16 @@
           }
         },
         {
+          "id": "de.keksuccino:konkrete:1.3.3@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 199932,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/konkrete_forge_1.3.3_MC_1.12-1.12.2.jar",
+            "MD5": "8998b1e46ec8591e123be472f8741f7d"
+          }
+        },
+        {
           "id": "net.mcreator.blocklumineur:block_lumineur:1.0.0@jar",
           "name": "Block lumineur",
           "type": "ForgeMod",
@@ -427,6 +447,16 @@
           "required": {
             "value": false,
             "def": false
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:1.12.2-1.6.0@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76902,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/Placebo-1.12.2-1.6.0.jar",
+            "MD5": "a9ecfa296b2b1203ed5a68ed6c01833a"
           }
         },
         {
@@ -487,36 +517,6 @@
             "size": 83768,
             "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/walljump-1.12.2-1.3.2.jar",
             "MD5": "845bdff742f44f42021458ea2897291e"
-          }
-        },
-        {
-          "id": "generated.library:Placebo:1.12.2-1.6.0@jar",
-          "name": "Placebo",
-          "type": "Library",
-          "artifact": {
-            "size": 76902,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/libraries/Placebo-1.12.2-1.6.0.jar",
-            "MD5": "a9ecfa296b2b1203ed5a68ed6c01833a"
-          }
-        },
-        {
-          "id": "generated.library:_MixinBootstrap:1.1.0@jar",
-          "name": "_MixinBootstrap",
-          "type": "Library",
-          "artifact": {
-            "size": 1119478,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/libraries/_MixinBootstrap-1.1.0.jar",
-            "MD5": "9df0dc628ebcd787270f487fbbf8157a"
-          }
-        },
-        {
-          "id": "generated.library:konkrete_forge_1.3.3_MC_1.12:1.12.2@jar",
-          "name": "konkrete_forge_1.3.3_MC_1.12",
-          "type": "Library",
-          "artifact": {
-            "size": 199932,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/libraries/konkrete_forge_1.3.3_MC_1.12-1.12.2.jar",
-            "MD5": "8998b1e46ec8591e123be472f8741f7d"
           }
         },
         {
