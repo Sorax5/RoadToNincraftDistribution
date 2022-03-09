@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "947522574672338954",
@@ -12,7 +12,7 @@
       "name": "RoadToNincraft - Instance RolePlay",
       "description": "Instance Roleplay du serveur Moddé RoadToNincraft",
       "icon": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/logo.png",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "address": "178.33.40.222:25637",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -525,9 +525,9 @@
           "type": "File",
           "artifact": {
             "size": 66,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/buttonscripts/onDisconnectPress.txt",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/buttonscripts/onDisconnectPress.txt",
             "MD5": "3fe7b95f81dfaaac7df729deec4b86bf",
-            "path": "fancymenu/buttonscripts/onDisconnectPress.txt"
+            "path": "config/fancymenu/buttonscripts/onDisconnectPress.txt"
           }
         },
         {
@@ -535,10 +535,10 @@
           "name": "config.txt",
           "type": "File",
           "artifact": {
-            "size": 1955,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/config.txt",
-            "MD5": "326465bfe87009c087083bbc4fcc4b92",
-            "path": "fancymenu/config.txt"
+            "size": 1956,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/config.txt",
+            "MD5": "de6c7ae268d325697e9db5faad8e1b98",
+            "path": "config/fancymenu/config.txt"
           }
         },
         {
@@ -547,9 +547,9 @@
           "type": "File",
           "artifact": {
             "size": 144,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/customizablemenus.txt",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/customizablemenus.txt",
             "MD5": "b13d751c04d25f76a0702d1cfc21be0b",
-            "path": "fancymenu/customizablemenus.txt"
+            "path": "config/fancymenu/customizablemenus.txt"
           }
         },
         {
@@ -558,9 +558,9 @@
           "type": "File",
           "artifact": {
             "size": 656,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/customization/GuiPause.txt",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/customization/GuiPause.txt",
             "MD5": "b06c397458a2725bb4fef85875f348c7",
-            "path": "fancymenu/customization/GuiPause.txt"
+            "path": "config/fancymenu/customization/GuiPause.txt"
           }
         },
         {
@@ -569,9 +569,9 @@
           "type": "File",
           "artifact": {
             "size": 6091,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/customization/default.txt",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/customization/default.txt",
             "MD5": "a74f947814d71f4f897eb09a5fb44215",
-            "path": "fancymenu/customization/default.txt"
+            "path": "config/fancymenu/customization/default.txt"
           }
         },
         {
@@ -580,9 +580,9 @@
           "type": "File",
           "artifact": {
             "size": 249,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/customization/defaultLayout.txt",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/customization/defaultLayout.txt",
             "MD5": "bc9855609923b51647648c32a4bbf45a",
-            "path": "fancymenu/customization/defaultLayout.txt"
+            "path": "config/fancymenu/customization/defaultLayout.txt"
           }
         },
         {
@@ -591,9 +591,9 @@
           "type": "File",
           "artifact": {
             "size": 27782,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/locals/de_de.local",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/locals/de_de.local",
             "MD5": "ea2b54cc1f94905344ed002c0167219b",
-            "path": "fancymenu/locals/de_de.local"
+            "path": "config/fancymenu/locals/de_de.local"
           }
         },
         {
@@ -602,9 +602,9 @@
           "type": "File",
           "artifact": {
             "size": 74400,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/locals/en_us.local",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/locals/en_us.local",
             "MD5": "009f315ce71a7a95bf18ea8f56afe69b",
-            "path": "fancymenu/locals/en_us.local"
+            "path": "config/fancymenu/locals/en_us.local"
           }
         },
         {
@@ -613,9 +613,9 @@
           "type": "File",
           "artifact": {
             "size": 14266,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/locals/pl_pl.local",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/locals/pl_pl.local",
             "MD5": "3d5ae1a193bcce626538f5a1c99c0ba1",
-            "path": "fancymenu/locals/pl_pl.local"
+            "path": "config/fancymenu/locals/pl_pl.local"
           }
         },
         {
@@ -624,9 +624,9 @@
           "type": "File",
           "artifact": {
             "size": 14666,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/locals/pt_br.local",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/locals/pt_br.local",
             "MD5": "0b2998c110b2e58f6fe147b41c005d24",
-            "path": "fancymenu/locals/pt_br.local"
+            "path": "config/fancymenu/locals/pt_br.local"
           }
         },
         {
@@ -635,9 +635,9 @@
           "type": "File",
           "artifact": {
             "size": 48124,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/locals/zh_cn.local",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/locals/zh_cn.local",
             "MD5": "1d77677857cb9a16748c1924fad31204",
-            "path": "fancymenu/locals/zh_cn.local"
+            "path": "config/fancymenu/locals/zh_cn.local"
           }
         },
         {
@@ -646,9 +646,9 @@
           "type": "File",
           "artifact": {
             "size": 10497,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/menu_identifiers.db",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/menu_identifiers.db",
             "MD5": "7ea7268db5d58f0ed6b4ffe8bec943b9",
-            "path": "fancymenu/menu_identifiers.db"
+            "path": "config/fancymenu/menu_identifiers.db"
           }
         },
         {
@@ -657,9 +657,9 @@
           "type": "File",
           "artifact": {
             "size": 1252,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/minecraftwindow/icons/icon16x16.png",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/minecraftwindow/icons/icon16x16.png",
             "MD5": "c22d6ed791ce1c0c01a9bc4d9c342c6d",
-            "path": "fancymenu/minecraftwindow/icons/icon16x16.png"
+            "path": "config/fancymenu/minecraftwindow/icons/icon16x16.png"
           }
         },
         {
@@ -668,9 +668,9 @@
           "type": "File",
           "artifact": {
             "size": 2457,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/minecraftwindow/icons/icon32x32.png",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/minecraftwindow/icons/icon32x32.png",
             "MD5": "81cb46ef5a845dd157bdde75ce7b5eac",
-            "path": "fancymenu/minecraftwindow/icons/icon32x32.png"
+            "path": "config/fancymenu/minecraftwindow/icons/icon32x32.png"
           }
         },
         {
@@ -679,9 +679,9 @@
           "type": "File",
           "artifact": {
             "size": 3902889,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_1.jpg",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/slideshows/backgroundSlide/images/image_1.jpg",
             "MD5": "c9396cd0cc814412d0de156b0e986783",
-            "path": "fancymenu/slideshows/backgroundSlide/images/image_1.jpg"
+            "path": "config/fancymenu/slideshows/backgroundSlide/images/image_1.jpg"
           }
         },
         {
@@ -690,9 +690,9 @@
           "type": "File",
           "artifact": {
             "size": 2892906,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_2.jpg",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/slideshows/backgroundSlide/images/image_2.jpg",
             "MD5": "b3db82457aacd25be296f93be3de75c5",
-            "path": "fancymenu/slideshows/backgroundSlide/images/image_2.jpg"
+            "path": "config/fancymenu/slideshows/backgroundSlide/images/image_2.jpg"
           }
         },
         {
@@ -701,9 +701,9 @@
           "type": "File",
           "artifact": {
             "size": 3361121,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_3.jpg",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/slideshows/backgroundSlide/images/image_3.jpg",
             "MD5": "fc2768ad52442ca70d60c448fed53a72",
-            "path": "fancymenu/slideshows/backgroundSlide/images/image_3.jpg"
+            "path": "config/fancymenu/slideshows/backgroundSlide/images/image_3.jpg"
           }
         },
         {
@@ -712,9 +712,9 @@
           "type": "File",
           "artifact": {
             "size": 1457591,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_4.jpg",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/slideshows/backgroundSlide/images/image_4.jpg",
             "MD5": "1114e9a542a3551488f0ceb4dbbb6f8d",
-            "path": "fancymenu/slideshows/backgroundSlide/images/image_4.jpg"
+            "path": "config/fancymenu/slideshows/backgroundSlide/images/image_4.jpg"
           }
         },
         {
@@ -723,9 +723,9 @@
           "type": "File",
           "artifact": {
             "size": 3617442,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_5.jpg",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/slideshows/backgroundSlide/images/image_5.jpg",
             "MD5": "6f1790e068a27f778754c2f4c4514165",
-            "path": "fancymenu/slideshows/backgroundSlide/images/image_5.jpg"
+            "path": "config/fancymenu/slideshows/backgroundSlide/images/image_5.jpg"
           }
         },
         {
@@ -734,9 +734,9 @@
           "type": "File",
           "artifact": {
             "size": 3847700,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_6.jpg",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/slideshows/backgroundSlide/images/image_6.jpg",
             "MD5": "ca3249ed5b3b5bee6f460084300c316d",
-            "path": "fancymenu/slideshows/backgroundSlide/images/image_6.jpg"
+            "path": "config/fancymenu/slideshows/backgroundSlide/images/image_6.jpg"
           }
         },
         {
@@ -745,9 +745,9 @@
           "type": "File",
           "artifact": {
             "size": 3403047,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_7.jpg",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/slideshows/backgroundSlide/images/image_7.jpg",
             "MD5": "1dba0299f17d20ed564b31ca86e8aa24",
-            "path": "fancymenu/slideshows/backgroundSlide/images/image_7.jpg"
+            "path": "config/fancymenu/slideshows/backgroundSlide/images/image_7.jpg"
           }
         },
         {
@@ -756,9 +756,9 @@
           "type": "File",
           "artifact": {
             "size": 1254510,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_8.jpg",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/slideshows/backgroundSlide/images/image_8.jpg",
             "MD5": "9555506c732cba74a5e8b4470e2a5de8",
-            "path": "fancymenu/slideshows/backgroundSlide/images/image_8.jpg"
+            "path": "config/fancymenu/slideshows/backgroundSlide/images/image_8.jpg"
           }
         },
         {
@@ -767,9 +767,9 @@
           "type": "File",
           "artifact": {
             "size": 162,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/properties.txt",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/slideshows/backgroundSlide/properties.txt",
             "MD5": "f56f69152d8a83e513346c815436d515",
-            "path": "fancymenu/slideshows/backgroundSlide/properties.txt"
+            "path": "config/fancymenu/slideshows/backgroundSlide/properties.txt"
           }
         }
       ]
