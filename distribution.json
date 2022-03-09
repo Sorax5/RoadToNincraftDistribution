@@ -12,7 +12,7 @@
       "name": "RoadToNincraft - Instance RolePlay",
       "description": "Instance Roleplay du serveur Moddé RoadToNincraft",
       "icon": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/logo.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "178.33.40.222:25637",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -271,11 +271,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7266,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/AIImprovements-1.12-0.0.1b3.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionaloff/AIImprovements-1.12-0.0.1b3.jar",
             "MD5": "b7530d2707a004353219ac8beceec173"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -284,11 +285,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 155196,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/BetterFps-1.4.8.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionaloff/BetterFps-1.4.8.jar",
             "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -307,21 +309,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 13792,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/Clumps-3.1.2.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionaloff/Clumps-3.1.2.jar",
             "MD5": "e0c4c4f04aeb0e0a48fc7534f9e7d6be"
           },
           "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
-          "name": "Custom Main Menu",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 91121,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
-            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+            "value": false,
+            "def": false
           }
         },
         {
@@ -335,13 +328,13 @@
           }
         },
         {
-          "id": "chylex.customwindowtitle:customwindowtitle:1.0.0@jar",
-          "name": "Custom Window Title",
+          "id": "de.keksuccino:fancymenu:2.6.4@jar",
+          "name": "FancyMenu",
           "type": "ForgeMod",
           "artifact": {
-            "size": 10105,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/CustomWindowTitle-Legacy-v1.0.0.jar",
-            "MD5": "c9c6c35a93de385bc97e610bb2f8bbdd"
+            "size": 692736,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/fancymenu_forge_2.6.4_MC_1.12-1.12.2.jar",
+            "MD5": "d6915c07640a0edfc14400862a0044a2"
           }
         },
         {
@@ -350,11 +343,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10035,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/FastFurnace-1.12.2-1.3.1.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionaloff/FastFurnace-1.12.2-1.3.1.jar",
             "MD5": "b84cc8a587dbd35fef2dbc3e0b9435aa"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -363,24 +357,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 26515,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/FastWorkbench-1.12.2-1.7.3.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionaloff/FastWorkbench-1.12.2-1.7.3.jar",
             "MD5": "b55a31e4193204572acf05f78e0deedc"
           },
           "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "pl.asie:foamfix:0.10.14-1.12.2@jar",
-          "name": "FoamFix",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 242897,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/foamfix-0.10.14-1.12.2.jar",
-            "MD5": "25a8849a99778579e2d32badaff30e81"
-          },
-          "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -439,34 +421,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2669107,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5.jar",
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionaloff/OptiFine_1.12.2_HD_U_G5.jar",
             "MD5": "54e561e441192cf009803ae95873c5d0"
           },
           "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "bl4ckscor3.mod:particleculling:1.12.2-v1.3.1@jar",
-          "name": "Particle Culling",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 15289,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/particleculling-1.12.2-v1.3.1.jar",
-            "MD5": "b324a3095054fca9b957cd6050bdf528"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "shadows.placebo:placebo:1.12.2-1.6.0@jar",
-          "name": "Placebo",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 76902,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/required/Placebo-1.12.2-1.6.0.jar",
-            "MD5": "a9ecfa296b2b1203ed5a68ed6c01833a"
+            "value": false,
+            "def": false
           }
         },
         {
@@ -510,19 +470,6 @@
           }
         },
         {
-          "id": "org.dimdev:vanillafix:1.0.10-150@jar",
-          "name": "VanillaFix",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1025896,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/forgemods/optionalon/VanillaFix-1.0.10-150.jar",
-            "MD5": "a74aaab68100e03f54e35d1007d50169"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "noppes.vc:variedcommodities:1.0@jar",
           "name": "Varied Commodities",
           "type": "ForgeMod",
@@ -543,25 +490,286 @@
           }
         },
         {
-          "id": "mainmenu.json",
-          "name": "mainmenu.json",
-          "type": "File",
+          "id": "generated.library:Placebo:1.12.2-1.6.0@jar",
+          "name": "Placebo",
+          "type": "Library",
           "artifact": {
-            "size": 3961,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/CustomMainMenu/mainmenu.json",
-            "MD5": "da0a7e347e37418db5e066e164911ebc",
-            "path": "config/CustomMainMenu/mainmenu.json"
+            "size": 76902,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/libraries/Placebo-1.12.2-1.6.0.jar",
+            "MD5": "a9ecfa296b2b1203ed5a68ed6c01833a"
           }
         },
         {
-          "id": "customwindowtitle-client.toml",
-          "name": "customwindowtitle-client.toml",
+          "id": "generated.library:_MixinBootstrap:1.1.0@jar",
+          "name": "_MixinBootstrap",
+          "type": "Library",
+          "artifact": {
+            "size": 1119478,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/libraries/_MixinBootstrap-1.1.0.jar",
+            "MD5": "9df0dc628ebcd787270f487fbbf8157a"
+          }
+        },
+        {
+          "id": "generated.library:konkrete_forge_1.3.3_MC_1.12:1.12.2@jar",
+          "name": "konkrete_forge_1.3.3_MC_1.12",
+          "type": "Library",
+          "artifact": {
+            "size": 199932,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/libraries/konkrete_forge_1.3.3_MC_1.12-1.12.2.jar",
+            "MD5": "8998b1e46ec8591e123be472f8741f7d"
+          }
+        },
+        {
+          "id": "onDisconnectPress.txt",
+          "name": "onDisconnectPress.txt",
           "type": "File",
           "artifact": {
-            "size": 41,
-            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/customwindowtitle-client.toml",
-            "MD5": "846cb10713f1e6c21ce7e070f30b5eb0",
-            "path": "config/customwindowtitle-client.toml"
+            "size": 66,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/buttonscripts/onDisconnectPress.txt",
+            "MD5": "3fe7b95f81dfaaac7df729deec4b86bf",
+            "path": "fancymenu/buttonscripts/onDisconnectPress.txt"
+          }
+        },
+        {
+          "id": "config.txt",
+          "name": "config.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1955,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/config.txt",
+            "MD5": "326465bfe87009c087083bbc4fcc4b92",
+            "path": "fancymenu/config.txt"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 144,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/customizablemenus.txt",
+            "MD5": "b13d751c04d25f76a0702d1cfc21be0b",
+            "path": "fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "GuiPause.txt",
+          "name": "GuiPause.txt",
+          "type": "File",
+          "artifact": {
+            "size": 656,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/customization/GuiPause.txt",
+            "MD5": "b06c397458a2725bb4fef85875f348c7",
+            "path": "fancymenu/customization/GuiPause.txt"
+          }
+        },
+        {
+          "id": "default.txt",
+          "name": "default.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6091,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/customization/default.txt",
+            "MD5": "a74f947814d71f4f897eb09a5fb44215",
+            "path": "fancymenu/customization/default.txt"
+          }
+        },
+        {
+          "id": "defaultLayout.txt",
+          "name": "defaultLayout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 249,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/customization/defaultLayout.txt",
+            "MD5": "bc9855609923b51647648c32a4bbf45a",
+            "path": "fancymenu/customization/defaultLayout.txt"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 27782,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/locals/de_de.local",
+            "MD5": "ea2b54cc1f94905344ed002c0167219b",
+            "path": "fancymenu/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 74400,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/locals/en_us.local",
+            "MD5": "009f315ce71a7a95bf18ea8f56afe69b",
+            "path": "fancymenu/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 14266,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/locals/pl_pl.local",
+            "MD5": "3d5ae1a193bcce626538f5a1c99c0ba1",
+            "path": "fancymenu/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 14666,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/locals/pt_br.local",
+            "MD5": "0b2998c110b2e58f6fe147b41c005d24",
+            "path": "fancymenu/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "zh_cn.local",
+          "name": "zh_cn.local",
+          "type": "File",
+          "artifact": {
+            "size": 48124,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/locals/zh_cn.local",
+            "MD5": "1d77677857cb9a16748c1924fad31204",
+            "path": "fancymenu/locals/zh_cn.local"
+          }
+        },
+        {
+          "id": "menu_identifiers.db",
+          "name": "menu_identifiers.db",
+          "type": "File",
+          "artifact": {
+            "size": 10497,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/menu_identifiers.db",
+            "MD5": "7ea7268db5d58f0ed6b4ffe8bec943b9",
+            "path": "fancymenu/menu_identifiers.db"
+          }
+        },
+        {
+          "id": "icon16x16.png",
+          "name": "icon16x16.png",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/minecraftwindow/icons/icon16x16.png",
+            "MD5": "c22d6ed791ce1c0c01a9bc4d9c342c6d",
+            "path": "fancymenu/minecraftwindow/icons/icon16x16.png"
+          }
+        },
+        {
+          "id": "icon32x32.png",
+          "name": "icon32x32.png",
+          "type": "File",
+          "artifact": {
+            "size": 2457,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/minecraftwindow/icons/icon32x32.png",
+            "MD5": "81cb46ef5a845dd157bdde75ce7b5eac",
+            "path": "fancymenu/minecraftwindow/icons/icon32x32.png"
+          }
+        },
+        {
+          "id": "image_1.jpg",
+          "name": "image_1.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 3902889,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_1.jpg",
+            "MD5": "c9396cd0cc814412d0de156b0e986783",
+            "path": "fancymenu/slideshows/backgroundSlide/images/image_1.jpg"
+          }
+        },
+        {
+          "id": "image_2.jpg",
+          "name": "image_2.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 2892906,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_2.jpg",
+            "MD5": "b3db82457aacd25be296f93be3de75c5",
+            "path": "fancymenu/slideshows/backgroundSlide/images/image_2.jpg"
+          }
+        },
+        {
+          "id": "image_3.jpg",
+          "name": "image_3.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 3361121,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_3.jpg",
+            "MD5": "fc2768ad52442ca70d60c448fed53a72",
+            "path": "fancymenu/slideshows/backgroundSlide/images/image_3.jpg"
+          }
+        },
+        {
+          "id": "image_4.jpg",
+          "name": "image_4.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 1457591,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_4.jpg",
+            "MD5": "1114e9a542a3551488f0ceb4dbbb6f8d",
+            "path": "fancymenu/slideshows/backgroundSlide/images/image_4.jpg"
+          }
+        },
+        {
+          "id": "image_5.jpg",
+          "name": "image_5.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 3617442,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_5.jpg",
+            "MD5": "6f1790e068a27f778754c2f4c4514165",
+            "path": "fancymenu/slideshows/backgroundSlide/images/image_5.jpg"
+          }
+        },
+        {
+          "id": "image_6.jpg",
+          "name": "image_6.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 3847700,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_6.jpg",
+            "MD5": "ca3249ed5b3b5bee6f460084300c316d",
+            "path": "fancymenu/slideshows/backgroundSlide/images/image_6.jpg"
+          }
+        },
+        {
+          "id": "image_7.jpg",
+          "name": "image_7.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 3403047,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_7.jpg",
+            "MD5": "1dba0299f17d20ed564b31ca86e8aa24",
+            "path": "fancymenu/slideshows/backgroundSlide/images/image_7.jpg"
+          }
+        },
+        {
+          "id": "image_8.jpg",
+          "name": "image_8.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 1254510,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/images/image_8.jpg",
+            "MD5": "9555506c732cba74a5e8b4470e2a5de8",
+            "path": "fancymenu/slideshows/backgroundSlide/images/image_8.jpg"
+          }
+        },
+        {
+          "id": "properties.txt",
+          "name": "properties.txt",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/fancymenu/slideshows/backgroundSlide/properties.txt",
+            "MD5": "f56f69152d8a83e513346c815436d515",
+            "path": "fancymenu/slideshows/backgroundSlide/properties.txt"
           }
         }
       ]

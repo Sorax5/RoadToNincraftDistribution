@@ -1,7 +1,7 @@
 {
   "$schema": "file:///C:/Users/SoraxDubbing/Documents/GitHub/Nebula-root/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "RoadToNincraft - Instance RolePlay",
     "description": "Instance Roleplay du serveur Moddé RoadToNincraft",
     "address": "178.33.40.222:25637",

@@ -1,0 +1,11 @@
+type = customizablemenus
+
+net.optifine.gui.GuiChatOF {
+}
+
+net.minecraft.client.gui.GuiIngameMenu {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+
