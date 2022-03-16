@@ -9,3 +9,9 @@ net.minecraft.client.gui.GuiIngameMenu {
 net.minecraft.client.gui.GuiMainMenu {
 }
 
+net.minecraft.client.gui.GuiOptions {
+}
+
+net.minecraft.client.gui.GuiCustomizeSkin {
+}
+

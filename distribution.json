@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "947522574672338954",
@@ -12,7 +12,7 @@
       "name": "RoadToNincraft - Instance RolePlay",
       "description": "Instance Roleplay du serveur Moddé RoadToNincraft",
       "icon": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/logo.png",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "address": "178.33.40.222:25637",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -520,6 +520,50 @@
           }
         },
         {
+          "id": "LoadingText.png",
+          "name": "LoadingText.png",
+          "type": "File",
+          "artifact": {
+            "size": 671,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/asset/LoadingText.png",
+            "MD5": "cf2a5d17e6ff164d39743f6ad6f74db4",
+            "path": "config/fancymenu/asset/LoadingText.png"
+          }
+        },
+        {
+          "id": "dorime-doge-original.wav",
+          "name": "dorime-doge-original.wav",
+          "type": "File",
+          "artifact": {
+            "size": 5586360,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/asset/sound/dorime-doge-original.wav",
+            "MD5": "a5490e5d425758a6874f7a000bb1eb2a",
+            "path": "config/fancymenu/asset/sound/dorime-doge-original.wav"
+          }
+        },
+        {
+          "id": "smash-mouth-all-star-official-music-video.wav",
+          "name": "smash-mouth-all-star-official-music-video.wav",
+          "type": "File",
+          "artifact": {
+            "size": 45442956,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/asset/sound/smash-mouth-all-star-official-music-video.wav",
+            "MD5": "9c423c76d1fea2ec4f7b1e05ea8e73ef",
+            "path": "config/fancymenu/asset/sound/smash-mouth-all-star-official-music-video.wav"
+          }
+        },
+        {
+          "id": "unknown.png",
+          "name": "unknown.png",
+          "type": "File",
+          "artifact": {
+            "size": 113821,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/asset/unknown.png",
+            "MD5": "5a5a0be935ef8fa2c6170c658fcb4bf3",
+            "path": "config/fancymenu/asset/unknown.png"
+          }
+        },
+        {
           "id": "onDisconnectPress.txt",
           "name": "onDisconnectPress.txt",
           "type": "File",
@@ -535,10 +579,21 @@
           "name": "config.txt",
           "type": "File",
           "artifact": {
-            "size": 1956,
+            "size": 1955,
             "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/config.txt",
-            "MD5": "de6c7ae268d325697e9db5faad8e1b98",
+            "MD5": "deaa450f2612f8ea224dc8527d2ffd8c",
             "path": "config/fancymenu/config.txt"
+          }
+        },
+        {
+          "id": "tounsi.menu.txt",
+          "name": "tounsi.menu.txt",
+          "type": "File",
+          "artifact": {
+            "size": 67,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/customguis/tounsi.menu.txt",
+            "MD5": "c14dffd124d65eebb95b251731cac033",
+            "path": "config/fancymenu/customguis/tounsi.menu.txt"
           }
         },
         {
@@ -546,9 +601,9 @@
           "name": "customizablemenus.txt",
           "type": "File",
           "artifact": {
-            "size": 144,
+            "size": 232,
             "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "b13d751c04d25f76a0702d1cfc21be0b",
+            "MD5": "6ac1e38c4b738c16a6268f0d1c8c6f7d",
             "path": "config/fancymenu/customizablemenus.txt"
           }
         },
@@ -561,6 +616,28 @@
             "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/customization/GuiPause.txt",
             "MD5": "b06c397458a2725bb4fef85875f348c7",
             "path": "config/fancymenu/customization/GuiPause.txt"
+          }
+        },
+        {
+          "id": "TounsiLayout.txt",
+          "name": "TounsiLayout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4927,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/customization/TounsiLayout.txt",
+            "MD5": "577d022d6070001c27208517c6c618c6",
+            "path": "config/fancymenu/customization/TounsiLayout.txt"
+          }
+        },
+        {
+          "id": "TounsiSpecial.txt",
+          "name": "TounsiSpecial.txt",
+          "type": "File",
+          "artifact": {
+            "size": 717,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/1-1.12.2/files/config/fancymenu/customization/TounsiSpecial.txt",
+            "MD5": "cdf76e7785ea0c1f1f0518917e514da7",
+            "path": "config/fancymenu/customization/TounsiSpecial.txt"
           }
         },
         {
