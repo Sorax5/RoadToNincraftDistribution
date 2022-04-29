@@ -1,3 +1,0 @@
-quitgame
-opengui:net.minecraft.client.gui.GuiMainMenu
-reloadmenu

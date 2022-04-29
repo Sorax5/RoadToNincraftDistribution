@@ -1,3 +1,0 @@
-identifier = tounsi.menu
-title = Tounsi Launcher !
-allowesc = true

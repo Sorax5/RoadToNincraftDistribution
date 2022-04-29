@@ -1,0 +1,224 @@
+type = menu
+
+customization-meta {
+  identifier = tounsi.menu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/asset/unknown.png
+  action = texturizebackground
+}
+
+customization {
+  path = config/fancymenu/asset/sound/dorime-doge-original.wav
+  loop = false
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  x = 22
+  width = 113
+  actionid = da9af673-9868-41cc-bd88-6d102496250e1646768524328
+  action = addwebtexture
+  y = 0
+  url = https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/fondLauncher.png
+  height = %guiheight%
+}
+
+customization {
+  orientation = top-right
+  x = -100
+  width = 100
+  actionid = de9a95f8-01db-4c64-aa5c-efa5920a81371646768643877
+  action = addwebtexture
+  y = 0
+  url = https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/logo.png
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = 33
+  width = 92
+  actionid = 0b824c2b-1bca-4b67-bb2d-87fa8e5310671646768964864
+  action = addbutton
+  y = 92
+  label = RoadToNincraft
+  value = rtnincraft.minesr.com
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = quitgame
+  x = 33
+  width = 92
+  actionid = 7a5ff6f1-ab79-4d7c-a075-8ddfb384488b1646808513828
+  action = addbutton
+  y = -61
+  label = Quit Game
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  x = 33
+  width = 92
+  actionid = 91d9e97a-f9d1-4060-a044-68fdad421c031646809018339
+  action = addbutton
+  y = 15
+  label = Options
+  value = net.minecraft.client.gui.GuiOptions
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  x = 33
+  width = 92
+  actionid = cf51f236-ff8a-4e2a-8a45-8d09320f01031646809108272
+  action = addbutton
+  y = -9
+  label = Mods
+  value = net.minecraftforge.fml.client.GuiModList
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 33
+  width = 20
+  actionid = cd7d423d-5ed8-45bc-86d7-62caf8b8501e1646831860153
+  action = addbutton
+  y = 39
+  label = 
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  x = 37
+  width = 12
+  actionid = 30ce4cc9-a79c-42b6-aa6b-7cc7d5ab75af1646832581839
+  action = addwebtexture
+  y = 44
+  url = https://cdn.iconscout.com/icon/free/png-256/discord-283279.png
+  height = 12
+}
+
+customization {
+  orientation = mid-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 57
+  width = 20
+  actionid = ea2f3bcf-2384-4fce-815a-25ed1000fbfe1646837560596
+  action = addbutton
+  y = 39
+  label = 
+  value = https://cdn.iconscout.com/icon/free/png-256/github-3215409-2673827.png
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  x = 57
+  width = 20
+  actionid = b3f9f80a-60e4-487d-985f-218bee3975751646837577721
+  action = addwebtexture
+  y = 39
+  url = https://cdn.iconscout.com/icon/free/png-256/github-3215409-2673827.png
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 81
+  width = 20
+  actionid = ad7c5dd0-036a-4544-9a55-5fd08d7b2f2c1646837694215
+  action = addbutton
+  y = 39
+  label = 
+  value = https://twitter.com/RTNincraft
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 105
+  width = 20
+  actionid = 982e404e-dd6b-4f42-9172-bf56117817601646837731115
+  action = addbutton
+  y = 39
+  label = 
+  value = https://www.youtube.com/channel/UCw4mCM_tE2s2otvPVjJlOaA/featured
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  x = 81
+  width = 20
+  actionid = 5db0122b-775c-4209-9265-f906c7cc5c161646838169284
+  action = addwebtexture
+  y = 39
+  url = https://www.shareicon.net/data/256x256/2017/06/22/887584_logo_512x512.png
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  x = 108
+  width = 14
+  actionid = f3c2ced5-28c4-4c31-8d6d-a71e7eacc3561646838221483
+  action = addwebtexture
+  y = 42
+  url = https://www.designbust.com/download/1005/png/transparent_background_youtube_logo_png256.png
+  height = 14
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 324
+  actionid = 7dbb198d-4d0f-4e53-88df-65ec1a19199a1647464479212
+  action = addtext
+  y = 238
+  scale = 1.0
+  alignment = left
+  value = Spécialement demandé par Lexi
+}
+
