@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "947522574672338954",
@@ -12,12 +12,12 @@
       "name": "RoadToNincraft - Instance RolePlay",
       "description": "Instance Roleplay du serveur Moddé RoadToNincraft",
       "icon": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/logo.png",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "address": "178.33.40.222:25637",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "RoadToNincraft Instance RolePlay",
-        "largeImageText": "S'entraine durement !",
+        "largeImageText": "RoadToNincraft - Studio Leblanc",
         "largeImageKey": "rtnimg"
       },
       "mainServer": true,
@@ -273,6 +273,16 @@
             "size": 3025784,
             "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/[1.12.2]%20SecurityCraft%20v1.9.1.jar",
             "MD5": "f52dc8a795b9f99e2e233d6133f51d0e"
+          }
+        },
+        {
+          "id": "de.mennomax:astikorcarts:0.1.2.7@jar",
+          "name": "AstikorCarts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 102639,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/astikorcarts-1.12.2-0.1.2.8.jar",
+            "MD5": "d13b6e597ddd3306368ff21dae2850e1"
           }
         },
         {
