@@ -276,16 +276,6 @@
           }
         },
         {
-          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
-          "name": "Armourer's Workshop",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2678747,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/armourers-workshop/download/3101995/?client=n",
-            "MD5": "12954551f39bed840b32fd8be8fddb54"
-          }
-        },
-        {
           "id": "de.mennomax:astikorcarts:0.1.2.7@jar",
           "name": "AstikorCarts",
           "type": "ForgeMod",
