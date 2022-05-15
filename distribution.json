@@ -319,6 +319,16 @@
           }
         },
         {
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2678747,
+            "url": "https://edge.forgecdn.net/files/3101/995/Armourers-Workshop-1.12.2-0.51.0.jar?api-key=267C6CA3",
+            "MD5": "12954551f39bed840b32fd8be8fddb54"
+          }
+        },
+        {
           "id": "de.keksuccino:fancymenu:2.6.6@jar",
           "name": "FancyMenu",
           "type": "ForgeMod",
