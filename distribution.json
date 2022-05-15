@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "947522574672338954",
@@ -12,7 +12,7 @@
       "name": "RoadToNincraft - Instance RolePlay",
       "description": "Instance Roleplay du serveur Moddé RoadToNincraft",
       "icon": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/image/logo.png",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "address": "178.33.40.222:25637",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -273,6 +273,16 @@
             "size": 3025784,
             "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/[1.12.2]%20SecurityCraft%20v1.9.1.jar",
             "MD5": "f52dc8a795b9f99e2e233d6133f51d0e"
+          }
+        },
+        {
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2678747,
+            "url": "https://raw.githubusercontent.com/Sorax5/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/Armourers-Workshop-1.12.2-0.51.0.jar",
+            "MD5": "12954551f39bed840b32fd8be8fddb54"
           }
         },
         {
