@@ -276,7 +276,7 @@
           }
         },
         {
-          "id": "net.geforcemods:securitycraft:v1.9.2@jar",
+          "id": "net.geforcemods:SecurityCraft:v1.9.2@jar",
           "name": "SecurityCraft",
           "type": "ForgeMod",
           "artifact": {
