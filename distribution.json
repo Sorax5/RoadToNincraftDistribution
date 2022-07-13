@@ -276,13 +276,13 @@
           }
         },
         {
-          "id": "net.geforcemods:SecurityCraft:v1.9.2@jar",
+          "id": "net.geforcemods:securitycraft:v1.9.1@jar",
           "name": "SecurityCraft",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3135023,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/security-craft/download/3821241",
-            "MD5": "b8d9a37a12835e82252ac48c7f054cb6"
+            "size": 3025784,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/security-craft/download/3696865",
+            "MD5": "f52dc8a795b9f99e2e233d6133f51d0e"
           }
         },
         {
