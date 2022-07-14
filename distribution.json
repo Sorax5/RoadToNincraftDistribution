@@ -315,7 +315,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5185177,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft/download",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/BiblioCraft[v2.4.6][MC1.12.2].jar",
             "MD5": "c10b7d250bdeb1efedf17b4b0c40c573"
           }
         },
@@ -325,7 +325,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 13792,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/clumps/download/2666198",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionalon/Clumps-3.1.2.jar",
             "MD5": "e0c4c4f04aeb0e0a48fc7534f9e7d6be"
           },
           "required": {
@@ -339,7 +339,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 9924337,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/custom-npcs/download/2996912",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/CustomNPCs_1.12.2-05Jun21snapshot.jar",
             "MD5": "0fef5f8d294cc33e24f963ba27b7167a"
           }
         },
