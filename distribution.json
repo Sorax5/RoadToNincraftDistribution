@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "947522574672338954",
@@ -296,16 +296,6 @@
           }
         },
         {
-          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
-          "name": "Armourer's Workshop",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2678747,
-            "url": "https://edge.forgecdn.net/files/3101/995/Armourers-Workshop-1.12.2-0.51.0.jar?api-key=267C6CA3",
-            "MD5": "12954551f39bed840b32fd8be8fddb54"
-          }
-        },
-        {
           "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
           "name": "BetterFps",
           "type": "ForgeMod",
@@ -535,20 +525,6 @@
           }
         },
         {
-          "id": "me.jellysquid.mods.phosphor.mod:phosphor-lighting:1.12.2-0.2.6@jar",
-          "name": "Phosphor",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1082311,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionaloff/phosphor-1.12.2-0.2.6+build50-universal.jar",
-            "MD5": "9892af4ac4f8ca4222138a245592227c"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "shadows.placebo:placebo:1.12.2-1.6.0@jar",
           "name": "Placebo",
           "type": "ForgeMod",
@@ -586,6 +562,16 @@
             "size": 2077178,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/RTN-elementV1.1.1.jar",
             "MD5": "5e4e90bcd7cc1217a6de81da8f80dfe1"
+          }
+        },
+        {
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2678747,
+            "url": "https://edge.forgecdn.net/files/3101/995/Armourers-Workshop-1.12.2-0.51.0.jar?api-key=267C6CA3",
+            "MD5": "12954551f39bed840b32fd8be8fddb54"
           }
         },
         {
@@ -967,6 +953,28 @@
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/slideshows/backgroundSlide/properties.txt",
             "MD5": "f56f69152d8a83e513346c815436d515",
             "path": "config/fancymenu/slideshows/backgroundSlide/properties.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2651,
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/options.txt",
+            "MD5": "157e76ac8196f66ee64f1b1348ec0a32",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "RoadToNincraft-StudioLeBlanc.zip",
+          "name": "RoadToNincraft-StudioLeBlanc.zip",
+          "type": "File",
+          "artifact": {
+            "size": 202475,
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/resourcepacks/RoadToNincraft-StudioLeBlanc.zip",
+            "MD5": "e0d51614400c6d62b09dfe1557dea722",
+            "path": "resourcepacks/RoadToNincraft-StudioLeBlanc.zip"
           }
         }
       ]
