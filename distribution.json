@@ -281,7 +281,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3025784,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/[1.12.2] SecurityCraft v1.9.1.jar",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/[1.12.2]%20SecurityCraft%20v1.9.1.jar",
             "MD5": "f52dc8a795b9f99e2e233d6133f51d0e"
           }
         },
@@ -296,12 +296,22 @@
           }
         },
         {
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2678747,
+            "url": "https://edge.forgecdn.net/files/3101/995/Armourers-Workshop-1.12.2-0.51.0.jar?api-key=267C6CA3",
+            "MD5": "12954551f39bed840b32fd8be8fddb54"
+          }
+        },
+        {
           "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
           "name": "BetterFps",
           "type": "ForgeMod",
           "artifact": {
             "size": 155196,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionalon/BetterFps-1.4.8.jar",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionaloff/BetterFps-1.4.8.jar",
             "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
           },
           "required": {
@@ -325,7 +335,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 13792,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionalon/Clumps-3.1.2.jar",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionaloff/Clumps-3.1.2.jar",
             "MD5": "e0c4c4f04aeb0e0a48fc7534f9e7d6be"
           },
           "required": {
@@ -344,22 +354,12 @@
           }
         },
         {
-          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
-          "name": "Armourer's Workshop",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2678747,
-            "url": "https://edge.forgecdn.net/files/3101/995/Armourers-Workshop-1.12.2-0.51.0.jar?api-key=267C6CA3",
-            "MD5": "12954551f39bed840b32fd8be8fddb54"
-          }
-        },
-        {
           "id": "meldexun.entityculling:entityculling:6.1.0@jar",
           "name": "EntityCulling",
           "type": "ForgeMod",
           "artifact": {
             "size": 56916,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/entity-culling/download",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionaloff/EntityCulling-1.12.2-6.1.0.jar",
             "MD5": "7ccc47830a3bfa5e749242a3627e8754"
           },
           "required": {
@@ -373,7 +373,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 696755,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/fancymenu-forge/download/3851935",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/fancymenu_forge_2.6.6_MC_1.12-1.12.2.jar",
             "MD5": "9e43e49a611a3b49776c65d71069dbf0"
           }
         },
@@ -383,7 +383,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10035,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/fastfurnace/download/2706111",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionaloff/FastFurnace-1.12.2-1.3.1.jar",
             "MD5": "b84cc8a587dbd35fef2dbc3e0b9435aa"
           },
           "required": {
@@ -397,7 +397,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 26515,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/fastworkbench/download/2838777",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionaloff/FastWorkbench-1.12.2-1.7.3.jar",
             "MD5": "b55a31e4193204572acf05f78e0deedc"
           },
           "required": {
@@ -411,7 +411,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10011886,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/future-minecraft/download",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/FutureVersions+v1.3.1.jar",
             "MD5": "e2d83e1bb81d3c4f3a1c905a52cdaade"
           }
         },
@@ -421,7 +421,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 20514,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/health-bar/download",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/HealthBar-1.12-1.0.7-23.jar",
             "MD5": "e472d55f9a82780b6cd2fb2176215cd2"
           }
         },
@@ -431,18 +431,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 199932,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/konkrete/download/3593191",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/konkrete_forge_1.3.3_MC_1.12-1.12.2.jar",
             "MD5": "8998b1e46ec8591e123be472f8741f7d"
-          }
-        },
-        {
-          "id": "de.keksuccino:loadmyresources:1.0.1@jar",
-          "name": "Load My Resources",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 27710,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/loadmyresources_1.0.1_MC_1.12-1.12.2.jar",
-            "MD5": "82a35d317797d8bdb137cf9115be8abe"
           }
         },
         {
@@ -451,7 +441,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1534213,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/lolasm/download",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionaloff/loliasm-5.4.jar",
             "MD5": "8e3370dc9fbd603aa1c6821f6e82e229"
           },
           "required": {
@@ -475,7 +465,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 770595,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/mo-bends/download",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionaloff/MoBends_1.12.2-1.2.1-19.12.21.jar",
             "MD5": "c4079332690a3cfda665740573415c0c"
           },
           "required": {
@@ -489,7 +479,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 140770,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/mumblelink/download/2518559",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/MumbleLink%201.12.2.jar",
             "MD5": "ab911b2dfeabf991236f987a596e09f8"
           }
         },
@@ -509,7 +499,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 112317,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/nothirium/download",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionaloff/Nothirium-1.12.2-0.1.6-beta.jar",
             "MD5": "2c3d86ad3943891460299782cbf2b8b7"
           },
           "required": {
@@ -536,7 +526,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 15289,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/particle-culling/download",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionaloff/particleculling-1.12.2-v1.3.1.jar",
             "MD5": "b324a3095054fca9b957cd6050bdf528"
           },
           "required": {
@@ -550,7 +540,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1082311,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/phosphor-forge/download/2919497",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionaloff/phosphor-1.12.2-0.2.6+build50-universal.jar",
             "MD5": "9892af4ac4f8ca4222138a245592227c"
           },
           "required": {
@@ -564,7 +554,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 76902,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/placebo/download/2694382",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/Placebo-1.12.2-1.6.0.jar",
             "MD5": "a9ecfa296b2b1203ed5a68ed6c01833a"
           }
         },
@@ -574,7 +564,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 87776,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/renderlib/download",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/RenderLib-1.12.2-1.1.0.jar",
             "MD5": "ef69818a6022641972f4ebca8baebdbf"
           }
         },
@@ -624,7 +614,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1772395,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/varied-commodities/download/3604292",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/VariedCommodities_1.12.2-(13Jan22).jar",
             "MD5": "9734c2e5953ef87e7345c964e84835b7"
           }
         },
@@ -634,7 +624,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 83768,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/wall-jump/download/2865090",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/walljump-1.12.2-1.3.2.jar",
             "MD5": "845bdff742f44f42021458ea2897291e"
           }
         },
@@ -698,9 +688,9 @@
           "name": "config.txt",
           "type": "File",
           "artifact": {
-            "size": 1955,
+            "size": 2038,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/config.txt",
-            "MD5": "deaa450f2612f8ea224dc8527d2ffd8c",
+            "MD5": "97b3c38630b6c7645cd2433674252169",
             "path": "config/fancymenu/config.txt"
           }
         },
@@ -709,9 +699,9 @@
           "name": "tounsi.menu.txt",
           "type": "File",
           "artifact": {
-            "size": 67,
+            "size": 70,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/customguis/tounsi.menu.txt",
-            "MD5": "c14dffd124d65eebb95b251731cac033",
+            "MD5": "e4a26e25ea81f1304a190d23424ee840",
             "path": "config/fancymenu/customguis/tounsi.menu.txt"
           }
         },
@@ -720,9 +710,9 @@
           "name": "customizablemenus.txt",
           "type": "File",
           "artifact": {
-            "size": 241,
+            "size": 258,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "098d440648aa26702a71b2711d48d6c4",
+            "MD5": "ee0712e2e064382ccac350de2e1eaec5",
             "path": "config/fancymenu/customizablemenus.txt"
           }
         },
@@ -731,9 +721,9 @@
           "name": "GuiPause.txt",
           "type": "File",
           "artifact": {
-            "size": 656,
+            "size": 691,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/customization/GuiPause.txt",
-            "MD5": "b06c397458a2725bb4fef85875f348c7",
+            "MD5": "5d4f2ee5d209736174d850d777bfc214",
             "path": "config/fancymenu/customization/GuiPause.txt"
           }
         },
@@ -742,9 +732,9 @@
           "name": "TounsiLayout.txt",
           "type": "File",
           "artifact": {
-            "size": 4927,
+            "size": 5151,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/customization/TounsiLayout.txt",
-            "MD5": "577d022d6070001c27208517c6c618c6",
+            "MD5": "3a1f41fdb5f8c708157d1097c2ca49ed",
             "path": "config/fancymenu/customization/TounsiLayout.txt"
           }
         },
@@ -753,9 +743,9 @@
           "name": "TounsiSpecial.txt",
           "type": "File",
           "artifact": {
-            "size": 717,
+            "size": 755,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/customization/TounsiSpecial.txt",
-            "MD5": "cdf76e7785ea0c1f1f0518917e514da7",
+            "MD5": "77a39abac59d847094618ca8b39d24e5",
             "path": "config/fancymenu/customization/TounsiSpecial.txt"
           }
         },
@@ -764,9 +754,9 @@
           "name": "default.txt",
           "type": "File",
           "artifact": {
-            "size": 6083,
+            "size": 6398,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/customization/default.txt",
-            "MD5": "2e49874695a8223711a1c1e4e42638ef",
+            "MD5": "7e30a91b50d84f463cd94296a9153d04",
             "path": "config/fancymenu/customization/default.txt"
           }
         },
@@ -775,9 +765,9 @@
           "name": "defaultLayout.txt",
           "type": "File",
           "artifact": {
-            "size": 249,
+            "size": 264,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/customization/defaultLayout.txt",
-            "MD5": "bc9855609923b51647648c32a4bbf45a",
+            "MD5": "ad172ca7842e191633777e14c3c67b9d",
             "path": "config/fancymenu/customization/defaultLayout.txt"
           }
         },
@@ -786,9 +776,9 @@
           "name": "inventaire.txt",
           "type": "File",
           "artifact": {
-            "size": 338,
+            "size": 358,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/customization/inventaire.txt",
-            "MD5": "2289b310676c74dc2dc0f92f3165010f",
+            "MD5": "15329637fc7bd79e7902d2b620018d4e",
             "path": "config/fancymenu/customization/inventaire.txt"
           }
         },
@@ -797,9 +787,9 @@
           "name": "de_de.local",
           "type": "File",
           "artifact": {
-            "size": 27782,
+            "size": 28182,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/locals/de_de.local",
-            "MD5": "ea2b54cc1f94905344ed002c0167219b",
+            "MD5": "8326564095685237be3f272cb0fbfee5",
             "path": "config/fancymenu/locals/de_de.local"
           }
         },
@@ -808,9 +798,9 @@
           "name": "en_us.local",
           "type": "File",
           "artifact": {
-            "size": 74968,
+            "size": 75956,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/locals/en_us.local",
-            "MD5": "6062b8f6520e177aff6d269129babd67",
+            "MD5": "b90bc0ad49203a6af5f28fd2c4a27e2e",
             "path": "config/fancymenu/locals/en_us.local"
           }
         },
@@ -819,9 +809,9 @@
           "name": "pl_pl.local",
           "type": "File",
           "artifact": {
-            "size": 14266,
+            "size": 14505,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/locals/pl_pl.local",
-            "MD5": "3d5ae1a193bcce626538f5a1c99c0ba1",
+            "MD5": "37e1935de1a51ff07e26a928bf3b10e9",
             "path": "config/fancymenu/locals/pl_pl.local"
           }
         },
@@ -830,9 +820,9 @@
           "name": "pt_br.local",
           "type": "File",
           "artifact": {
-            "size": 14666,
+            "size": 14913,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/locals/pt_br.local",
-            "MD5": "0b2998c110b2e58f6fe147b41c005d24",
+            "MD5": "038f4cae712322e4f033e709bde7be04",
             "path": "config/fancymenu/locals/pt_br.local"
           }
         },
@@ -841,9 +831,9 @@
           "name": "zh_cn.local",
           "type": "File",
           "artifact": {
-            "size": 48125,
+            "size": 48862,
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/locals/zh_cn.local",
-            "MD5": "ec2b23ec3242af765f965f52bdbbc6bc",
+            "MD5": "ff93b8262a1c33042b4f75091aaed23e",
             "path": "config/fancymenu/locals/zh_cn.local"
           }
         },
@@ -977,457 +967,6 @@
             "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/config/fancymenu/slideshows/backgroundSlide/properties.txt",
             "MD5": "f56f69152d8a83e513346c815436d515",
             "path": "config/fancymenu/slideshows/backgroundSlide/properties.txt"
-          }
-        },
-        {
-          "id": "default.json",
-          "name": "default.json",
-          "type": "File",
-          "artifact": {
-            "size": 204,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/font/default.json",
-            "MD5": "55ecddd8861aa4abde2fec9aa82be497",
-            "path": "ressources/assets/minecraft/font/default.json"
-          }
-        },
-        {
-          "id": "glyph_sizes.bin",
-          "name": "glyph_sizes.bin",
-          "type": "File",
-          "artifact": {
-            "size": 65536,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/font/glyph_sizes.bin",
-            "MD5": "c6faad315472f2068b568d7187cb24c2",
-            "path": "ressources/assets/minecraft/font/glyph_sizes.bin"
-          }
-        },
-        {
-          "id": "tabs.png",
-          "name": "tabs.png",
-          "type": "File",
-          "artifact": {
-            "size": 1467,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/advancements/tabs.png",
-            "MD5": "b1d0db1a988a37e9bc6088f4e5827377",
-            "path": "ressources/assets/minecraft/textures/gui/advancements/tabs.png"
-          }
-        },
-        {
-          "id": "widgets.png",
-          "name": "widgets.png",
-          "type": "File",
-          "artifact": {
-            "size": 1506,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/advancements/widgets.png",
-            "MD5": "74659eabb247f671b02a85450f4ff7a4",
-            "path": "ressources/assets/minecraft/textures/gui/advancements/widgets.png"
-          }
-        },
-        {
-          "id": "window.png",
-          "name": "window.png",
-          "type": "File",
-          "artifact": {
-            "size": 1427,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/advancements/window.png",
-            "MD5": "d74e4bb52d7b166d84bf85840acb049d",
-            "path": "ressources/assets/minecraft/textures/gui/advancements/window.png"
-          }
-        },
-        {
-          "id": "bars.png",
-          "name": "bars.png",
-          "type": "File",
-          "artifact": {
-            "size": 1842,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/bars.png",
-            "MD5": "d9029884d4f9b1ff1462bbc2c3908c8b",
-            "path": "ressources/assets/minecraft/textures/gui/bars.png"
-          }
-        },
-        {
-          "id": "book.png",
-          "name": "book.png",
-          "type": "File",
-          "artifact": {
-            "size": 7919,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/book.png",
-            "MD5": "94e4d3ff5e393a46c0e30f4e5f7cecee",
-            "path": "ressources/assets/minecraft/textures/gui/book.png"
-          }
-        },
-        {
-          "id": "anvil.png",
-          "name": "anvil.png",
-          "type": "File",
-          "artifact": {
-            "size": 2444,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/anvil.png",
-            "MD5": "9c9ef22f6e4cd9288d1d02e83a947019",
-            "path": "ressources/assets/minecraft/textures/gui/container/anvil.png"
-          }
-        },
-        {
-          "id": "beacon.png",
-          "name": "beacon.png",
-          "type": "File",
-          "artifact": {
-            "size": 3055,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/beacon.png",
-            "MD5": "1f84a85575566af970d36b750fd064d8",
-            "path": "ressources/assets/minecraft/textures/gui/container/beacon.png"
-          }
-        },
-        {
-          "id": "brewing_stand.png",
-          "name": "brewing_stand.png",
-          "type": "File",
-          "artifact": {
-            "size": 3152,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/brewing_stand.png",
-            "MD5": "0335b42e057ce3096ed90a4d1b37c670",
-            "path": "ressources/assets/minecraft/textures/gui/container/brewing_stand.png"
-          }
-        },
-        {
-          "id": "crafting_table.png",
-          "name": "crafting_table.png",
-          "type": "File",
-          "artifact": {
-            "size": 3346,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/crafting_table.png",
-            "MD5": "24a271b7a0a4a2e0ad8bf3597afda277",
-            "path": "ressources/assets/minecraft/textures/gui/container/crafting_table.png"
-          }
-        },
-        {
-          "id": "tab_inventory.png",
-          "name": "tab_inventory.png",
-          "type": "File",
-          "artifact": {
-            "size": 1870,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/creative_inventory/tab_inventory.png",
-            "MD5": "0c0d4806f90548d36045fedc09546925",
-            "path": "ressources/assets/minecraft/textures/gui/container/creative_inventory/tab_inventory.png"
-          }
-        },
-        {
-          "id": "tab_item_search.png",
-          "name": "tab_item_search.png",
-          "type": "File",
-          "artifact": {
-            "size": 1735,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/creative_inventory/tab_item_search.png",
-            "MD5": "cc7d45d48e1ce032dab82d159bb3f9ab",
-            "path": "ressources/assets/minecraft/textures/gui/container/creative_inventory/tab_item_search.png"
-          }
-        },
-        {
-          "id": "tab_items.png",
-          "name": "tab_items.png",
-          "type": "File",
-          "artifact": {
-            "size": 1693,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/creative_inventory/tab_items.png",
-            "MD5": "d48eb0e54bcdec4d27e8d0d7660bfef5",
-            "path": "ressources/assets/minecraft/textures/gui/container/creative_inventory/tab_items.png"
-          }
-        },
-        {
-          "id": "tabs.png",
-          "name": "tabs.png",
-          "type": "File",
-          "artifact": {
-            "size": 1723,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/creative_inventory/tabs.png",
-            "MD5": "ef360347419866efb8cc76abec883c8f",
-            "path": "ressources/assets/minecraft/textures/gui/container/creative_inventory/tabs.png"
-          }
-        },
-        {
-          "id": "dispenser.png",
-          "name": "dispenser.png",
-          "type": "File",
-          "artifact": {
-            "size": 2068,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/dispenser.png",
-            "MD5": "eb76fdaa6a96c4a4c30caf2de65f08f5",
-            "path": "ressources/assets/minecraft/textures/gui/container/dispenser.png"
-          }
-        },
-        {
-          "id": "enchanting_table.png",
-          "name": "enchanting_table.png",
-          "type": "File",
-          "artifact": {
-            "size": 3683,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/enchanting_table.png",
-            "MD5": "d89ad173720ecab2371c435a89295414",
-            "path": "ressources/assets/minecraft/textures/gui/container/enchanting_table.png"
-          }
-        },
-        {
-          "id": "furnace.png",
-          "name": "furnace.png",
-          "type": "File",
-          "artifact": {
-            "size": 2359,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/furnace.png",
-            "MD5": "63086d85a26cb625a9c8e4a2d0d9abd3",
-            "path": "ressources/assets/minecraft/textures/gui/container/furnace.png"
-          }
-        },
-        {
-          "id": "generic_54.png",
-          "name": "generic_54.png",
-          "type": "File",
-          "artifact": {
-            "size": 1972,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/generic_54.png",
-            "MD5": "a09e233e1cdf5e45bd592ba0e8aa3ffc",
-            "path": "ressources/assets/minecraft/textures/gui/container/generic_54.png"
-          }
-        },
-        {
-          "id": "hopper.png",
-          "name": "hopper.png",
-          "type": "File",
-          "artifact": {
-            "size": 1850,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/hopper.png",
-            "MD5": "6489b4920965e79d186a4e965fbdf62d",
-            "path": "ressources/assets/minecraft/textures/gui/container/hopper.png"
-          }
-        },
-        {
-          "id": "horse.png",
-          "name": "horse.png",
-          "type": "File",
-          "artifact": {
-            "size": 2171,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/horse.png",
-            "MD5": "7914f803b89a081890eb72cee89aaeef",
-            "path": "ressources/assets/minecraft/textures/gui/container/horse.png"
-          }
-        },
-        {
-          "id": "inventory.png",
-          "name": "inventory.png",
-          "type": "File",
-          "artifact": {
-            "size": 10532,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/inventory.png",
-            "MD5": "70a89a2def11c48f89bbde7593c47ea4",
-            "path": "ressources/assets/minecraft/textures/gui/container/inventory.png"
-          }
-        },
-        {
-          "id": "recipe_background.png",
-          "name": "recipe_background.png",
-          "type": "File",
-          "artifact": {
-            "size": 852,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/recipe_background.png",
-            "MD5": "bf2a5511a4f67b3546ce650f446f4ac4",
-            "path": "ressources/assets/minecraft/textures/gui/container/recipe_background.png"
-          }
-        },
-        {
-          "id": "shulker_box.png",
-          "name": "shulker_box.png",
-          "type": "File",
-          "artifact": {
-            "size": 1819,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/shulker_box.png",
-            "MD5": "07bcb1d99ed2f6f8193ca6d4c0792754",
-            "path": "ressources/assets/minecraft/textures/gui/container/shulker_box.png"
-          }
-        },
-        {
-          "id": "stats_icons.png",
-          "name": "stats_icons.png",
-          "type": "File",
-          "artifact": {
-            "size": 2316,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/stats_icons.png",
-            "MD5": "7292ed257b5816e42227db2c940d7574",
-            "path": "ressources/assets/minecraft/textures/gui/container/stats_icons.png"
-          }
-        },
-        {
-          "id": "villager.png",
-          "name": "villager.png",
-          "type": "File",
-          "artifact": {
-            "size": 3939,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/container/villager.png",
-            "MD5": "26824bac86f1e851a5d6e80bcbcf484c",
-            "path": "ressources/assets/minecraft/textures/gui/container/villager.png"
-          }
-        },
-        {
-          "id": "demo_background.png",
-          "name": "demo_background.png",
-          "type": "File",
-          "artifact": {
-            "size": 632,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/demo_background.png",
-            "MD5": "847208ca1a8cab33ad1755ede8a4d80e",
-            "path": "ressources/assets/minecraft/textures/gui/demo_background.png"
-          }
-        },
-        {
-          "id": "icons.png",
-          "name": "icons.png",
-          "type": "File",
-          "artifact": {
-            "size": 7180,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/icons.png",
-            "MD5": "75046a524e00503568555b05dbb3e32c",
-            "path": "ressources/assets/minecraft/textures/gui/icons.png"
-          }
-        },
-        {
-          "id": "options_background.png",
-          "name": "options_background.png",
-          "type": "File",
-          "artifact": {
-            "size": 949,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/options_background.png",
-            "MD5": "881525cf0fbf1f1aef485709af4e7935",
-            "path": "ressources/assets/minecraft/textures/gui/options_background.png"
-          }
-        },
-        {
-          "id": "recipe_book.png",
-          "name": "recipe_book.png",
-          "type": "File",
-          "artifact": {
-            "size": 2647,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/recipe_book.png",
-            "MD5": "3122f3a4c24db4a25519e13aedfdc300",
-            "path": "ressources/assets/minecraft/textures/gui/recipe_book.png"
-          }
-        },
-        {
-          "id": "resource_packs.png",
-          "name": "resource_packs.png",
-          "type": "File",
-          "artifact": {
-            "size": 759,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/resource_packs.png",
-            "MD5": "bdd6c5dc3017c2581e62e95b2c5a8f4e",
-            "path": "ressources/assets/minecraft/textures/gui/resource_packs.png"
-          }
-        },
-        {
-          "id": "server_selection.png",
-          "name": "server_selection.png",
-          "type": "File",
-          "artifact": {
-            "size": 1444,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/server_selection.png",
-            "MD5": "ba13b5cb6056e1e51ebe75276cd03608",
-            "path": "ressources/assets/minecraft/textures/gui/server_selection.png"
-          }
-        },
-        {
-          "id": "spectator_widgets.png",
-          "name": "spectator_widgets.png",
-          "type": "File",
-          "artifact": {
-            "size": 1178,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/spectator_widgets.png",
-            "MD5": "553cf52c63526d5e203fe1fc98913385",
-            "path": "ressources/assets/minecraft/textures/gui/spectator_widgets.png"
-          }
-        },
-        {
-          "id": "stream_indicator.png",
-          "name": "stream_indicator.png",
-          "type": "File",
-          "artifact": {
-            "size": 642,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/stream_indicator.png",
-            "MD5": "72f00c2c45d1ffe90ec976db1faf8334",
-            "path": "ressources/assets/minecraft/textures/gui/stream_indicator.png"
-          }
-        },
-        {
-          "id": "toasts.png",
-          "name": "toasts.png",
-          "type": "File",
-          "artifact": {
-            "size": 3116,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/toasts.png",
-            "MD5": "aa90f13af94f90654f609385e6677d14",
-            "path": "ressources/assets/minecraft/textures/gui/toasts.png"
-          }
-        },
-        {
-          "id": "widgets.png",
-          "name": "widgets.png",
-          "type": "File",
-          "artifact": {
-            "size": 17069,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/widgets.png",
-            "MD5": "0dca5c480a05cff4c00f4feb7944abae",
-            "path": "ressources/assets/minecraft/textures/gui/widgets.png"
-          }
-        },
-        {
-          "id": "world_selection.png",
-          "name": "world_selection.png",
-          "type": "File",
-          "artifact": {
-            "size": 1134,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/gui/world_selection.png",
-            "MD5": "668fd36fbbdbc07d86265cd17f5ed2ff",
-            "path": "ressources/assets/minecraft/textures/gui/world_selection.png"
-          }
-        },
-        {
-          "id": "paintings_kristoffer_zetterstrand.png",
-          "name": "paintings_kristoffer_zetterstrand.png",
-          "type": "File",
-          "artifact": {
-            "size": 77687,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/painting/paintings_kristoffer_zetterstrand.png",
-            "MD5": "0ab6b513a01a7108f9286535eddb6bc8",
-            "path": "ressources/assets/minecraft/textures/painting/paintings_kristoffer_zetterstrand.png"
-          }
-        },
-        {
-          "id": "joueur.png",
-          "name": "joueur.png",
-          "type": "File",
-          "artifact": {
-            "size": 102,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/assets/minecraft/textures/ranks/joueur.png",
-            "MD5": "967c0352c15d7a91c3eb6023c9312586",
-            "path": "ressources/assets/minecraft/textures/ranks/joueur.png"
-          }
-        },
-        {
-          "id": "pack.mcmeta",
-          "name": "pack.mcmeta",
-          "type": "File",
-          "artifact": {
-            "size": 135,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/pack.mcmeta",
-            "MD5": "0b3d3c64c97e7d817f4adc5496dab81c",
-            "path": "ressources/pack.mcmeta"
-          }
-        },
-        {
-          "id": "pack.png",
-          "name": "pack.png",
-          "type": "File",
-          "artifact": {
-            "size": 18075,
-            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/files/ressources/pack.png",
-            "MD5": "338bd13ecd5828dce96c5be166746f01",
-            "path": "ressources/pack.png"
           }
         }
       ]
