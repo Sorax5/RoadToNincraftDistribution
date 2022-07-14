@@ -281,7 +281,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3025784,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/security-craft/download/3696865",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/[1.12.2] SecurityCraft v1.9.1.jar",
             "MD5": "f52dc8a795b9f99e2e233d6133f51d0e"
           }
         },
@@ -291,7 +291,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 102639,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/astikorcarts/download",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/required/astikorcarts-1.12.2-0.1.2.8.jar",
             "MD5": "d13b6e597ddd3306368ff21dae2850e1"
           }
         },
@@ -301,11 +301,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 155196,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/betterfps/download/2483393",
+            "url": "https://raw.githubusercontent.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftDistribution/main/servers/RoadToNincraft-1.12.2/forgemods/optionalon/BetterFps-1.4.8.jar",
             "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -328,7 +329,8 @@
             "MD5": "e0c4c4f04aeb0e0a48fc7534f9e7d6be"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -361,7 +363,8 @@
             "MD5": "7ccc47830a3bfa5e749242a3627e8754"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -384,7 +387,8 @@
             "MD5": "b84cc8a587dbd35fef2dbc3e0b9435aa"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -397,7 +401,8 @@
             "MD5": "b55a31e4193204572acf05f78e0deedc"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -450,7 +455,8 @@
             "MD5": "8e3370dc9fbd603aa1c6821f6e82e229"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -507,7 +513,8 @@
             "MD5": "2c3d86ad3943891460299782cbf2b8b7"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -533,7 +540,8 @@
             "MD5": "b324a3095054fca9b957cd6050bdf528"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -546,7 +554,8 @@
             "MD5": "9892af4ac4f8ca4222138a245592227c"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
