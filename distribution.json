@@ -566,7 +566,7 @@
         },
         {
           "id": "moe.plushie:Armourers-Workshop:1.12.2-0.51.0@jar",
-          "name": "Armourer's Workshop",
+          "name": "Armourers-Workshop",
           "type": "ForgeMod",
           "artifact": {
             "size": 2678747,
